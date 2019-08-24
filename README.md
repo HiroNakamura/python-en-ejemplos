@@ -13,6 +13,35 @@ Serie de ejercicios en lenguaje de programación **Python**.
 4. Tener instalado git.
 
 
+### Instalacions necesarias
+
+
+**PyZenity** 
+
+1. Descargar la últim versión en http://brianramos.com/?page_id=38
+
+2. Desempaquetar
+3. Ir a la carpeta PyZenity
+4. Desde terminal teclear (como root): python setup.py install.
+5. Entra al repl de Python tecleando: python 
+
+
+Ej.
+
+```
+$ python setup.py install
+
+$ python 
+
+> import PyZenity
+> PyZenity
+
+```
+
+En caso de no salir ningún mensaje, la instalación está correcta.
+
+
+
 ### Temas a tratar
 
 1. Uso de **PyZenity** https://wiki.gnome.org/Projects/Zenity
