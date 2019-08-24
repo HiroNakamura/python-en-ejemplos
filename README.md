@@ -13,15 +13,15 @@ Serie de ejercicios en lenguaje de programación **Python**.
 4. Tener instalado git.
 
 
-### Instalacions necesarias
+### Instalaciones necesarias
 
 
 **PyZenity** 
 
 1. Descargar la última versión en http://brianramos.com/?page_id=38
 
-2. Desempaquetar
-3. Ir a la carpeta PyZenity
+2. Desempaquetar.
+3. Ir a la carpeta **PyZenity**.
 4. Desde terminal teclear (como root): python setup.py install.
 5. Entra al repl de Python tecleando: python 
 
@@ -38,7 +38,7 @@ $ python
 
 ```
 
-En caso de no salir ningún mensaje, la instalación está correcta.
+En caso de no salir ningún mensaje, la instalación es correcta.
 
 
 
