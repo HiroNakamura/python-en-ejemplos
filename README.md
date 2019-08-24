@@ -13,6 +13,15 @@ Serie de ejercicios en lenguaje de programación **Python**.
 4. Tener instalado git.
 
 
+
+```
+$ python 
+> import sys
+> print sys.path
+```
+
+
+
 ### Instalaciones necesarias
 
 
