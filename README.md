@@ -26,10 +26,10 @@ Serie de ejercicios en lenguaje de programación **Python**.
 5. Entra al repl de Python tecleando: python 
 
 
-Ej.
+**Ejemplo**. Instalando PyZenity
 
 ```
-$ python setup.py install
+$ sudo python setup.py install
 
 $ python 
 
