@@ -2,12 +2,11 @@
 # coding=utf-8
 
 
-import chapter0.variables
-
+from chapter0.variables import *
 
 def main():
-	print "Hola, mundo"
-	variables()
+	print "Python for Beginners"
+	funcion_variables()
 
 
 if __name__ == '__main__':
