@@ -3,9 +3,11 @@
 
 
 from chapter0.variables import *
+from chapter1.mensaje import *
 
 def main():
 	print "Python for Beginners"
+	get_mensaje()
 	funcion_variables()
 
 
