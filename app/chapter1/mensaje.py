@@ -6,6 +6,6 @@ import PyZenity
 
 def get_mensaje():
 	print "\n*** PyZenity ***"
-	PyZenity.InfoMessage('Usando una ventana de informacion')
+	#PyZenity.InfoMessage('Usando una ventana de informacion')
 	
 	

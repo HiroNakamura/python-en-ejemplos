@@ -7,8 +7,8 @@ from chapter1.mensaje import *
 
 def main():
 	print "Python for Beginners"
-	get_mensaje()
 	funcion_variables()
+	#get_mensaje()
 
 
 if __name__ == '__main__':
