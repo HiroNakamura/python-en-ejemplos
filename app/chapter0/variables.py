@@ -1,9 +1,10 @@
 #!/bin/python
 # coding=utf-8
 
-
+TAM = 100
 
 def funcion_variables():
+	global TAM
 	entero = 33
 	character = 'A'
 	cadena = str("Python for Beginners")
@@ -14,3 +15,4 @@ def funcion_variables():
 	print "Caracter = ",character
 	print "Cadena = ",cadena
 	print "Booleana = ",booleana #False
+	print "Constante global: ",TAM
