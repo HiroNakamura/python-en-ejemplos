@@ -18,7 +18,7 @@ Serie de ejercicios en lenguaje de programación **Python**.
 
 **PyZenity** 
 
-1. Descargar la últim versión en http://brianramos.com/?page_id=38
+1. Descargar la última versión en http://brianramos.com/?page_id=38
 
 2. Desempaquetar
 3. Ir a la carpeta PyZenity
