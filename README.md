@@ -53,5 +53,7 @@ En caso de no salir ningún mensaje, la instalación es correcta.
 
 ### Temas a tratar
 
-1. Uso de **PyZenity** https://wiki.gnome.org/Projects/Zenity
+1. Python básico
+2. MongoDb + Python
 2. Uso de **Flask** 
+3. Uso de **PyZenity** https://wiki.gnome.org/Projects/Zenity
