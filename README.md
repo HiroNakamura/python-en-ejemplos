@@ -14,12 +14,20 @@ Serie de ejercicios en lenguaje de programación **Python**.
 
 
 
+Conocer la ruta del sistema.
+
 ```
 $ python 
 > import sys
 > print sys.path
 ```
 
+### Uso de PIP
+
+
+```
+$ pip list
+```
 
 
 ### Instalaciones necesarias
