@@ -13,6 +13,9 @@ def main():
 
 	#Chapter 0
 	ciclo_for()
+	cadenas()
+	decir_hola()
+	print tam_cadena("Estalaquita")
 	#funcion_variables()
 
 	#Chapter 1
