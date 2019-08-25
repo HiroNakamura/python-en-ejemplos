@@ -73,3 +73,17 @@ En caso de no salir ningún mensaje, la instalación es correcta. **Nota:** Debe
 3. MongoDb + Python.
 4. Uso de **Flask**. 
 5. Uso de **Django**.
+
+
+**Enlaces importantes**
+
+MongoDb
+https://www.mongodb.com/
+
+MongoEngine
+http://mongoengine.org/
+
+Python
+https://www.python.org/
+
+
