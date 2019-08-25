@@ -13,7 +13,6 @@ Serie de ejercicios en lenguaje de programación **Python**.
 4. Tener instalado git.
 
 
-
 Conocer la ruta del sistema. en muchos casos debes conocer la ruta principal de python.
 
 ```
@@ -42,6 +41,8 @@ $ pip list
 
 **PyZenity** 
 
+[https://wiki.gnome.org/Projects/Zenity]
+
 1. Descargar la última versión en http://brianramos.com/?page_id=38
 
 2. Desempaquetar.
@@ -62,13 +63,13 @@ $ python
 
 ```
 
-En caso de no salir ningún mensaje, la instalación es correcta. Debes tener instalado el paquete **zenity**. 
-
+En caso de no salir ningún mensaje, la instalación es correcta. **Nota:** Debes tener instalado el paquete **zenity**. 
 
 
 ### Temas a tratar
 
 1. Python básico
-2. MongoDb + Python
-2. Uso de **Flask** 
-3. Uso de **PyZenity** https://wiki.gnome.org/Projects/Zenity
+2. Uso de **PyZenity** 
+3. MongoDb + Python.
+4. Uso de **Flask**. 
+ 
