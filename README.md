@@ -14,7 +14,7 @@ Serie de ejercicios en lenguaje de programación **Python**.
 
 
 
-Conocer la ruta del sistema.
+Conocer la ruta del sistema. en muchos casos debes conocer la ruta principal de python.
 
 ```
 $ python 
@@ -22,8 +22,15 @@ $ python
 > print sys.path
 ```
 
-### Uso de PIP
+### Uso de pip
 
+1. Instalar paquete.
+
+```
+$ pip install paquete
+```
+
+2. Listar paquetes instalados-
 
 ```
 $ pip list
@@ -43,7 +50,7 @@ $ pip list
 5. Entra al repl de Python tecleando: python 
 
 
-**Ejemplo**. Instalando PyZenity
+**Ejemplo**. Instalando PyZenity. 
 
 ```
 $ sudo python setup.py install
@@ -55,7 +62,7 @@ $ python
 
 ```
 
-En caso de no salir ningún mensaje, la instalación es correcta.
+En caso de no salir ningún mensaje, la instalación es correcta. Debes tener instalado el paquete **zenity**. 
 
 
 
