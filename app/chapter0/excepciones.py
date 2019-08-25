@@ -1,8 +1,6 @@
 #!/bin/python
 # coding=utf-8
 
-
-
 def excepcion_testB():
 	try:
 		import noExiste()
