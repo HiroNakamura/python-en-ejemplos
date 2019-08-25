@@ -2,13 +2,13 @@
 
 ![Python en ejemplos](http://1.bp.blogspot.com/-J_ftL7JEuy4/U3k5Dy4je2I/AAAAAAAAAtI/K-Uo123XOcA/s1600/Sin+t%C3%ADtulo-1.png "Python en ejemplos")
 
-Serie de ejercicios en lenguaje de programación **Python**. Por el momento sólo para plataforma Linux.
+Serie de ejercicios en lenguaje de programación **Python** (en este repositorio usamos la versión 2.7). Por el momento sólo para plataforma Linux. 
 
 
 ### Requerimientos
 
 1. Tener bases sobre programación.
-2. Tener bases sobre el uso de terminal (Windows o Linux).
+2. Tener bases sobre el uso de terminal Linux.
 3. Tener instalado Python (versión 2.7 o 3).
 4. Tener instalado git.
 
