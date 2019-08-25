@@ -4,4 +4,8 @@
 MAX = 100
 
 def ciclo_for():
-    pass
+    global MAX
+    print "Ciclo for:"
+    for i in range(1,MAX):
+    	if i%3 == 0 and i%5 ==0:
+    		print "No. ",i
