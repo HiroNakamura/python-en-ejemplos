@@ -9,6 +9,7 @@ def main():
 	print "Python for Beginners"
 	funcion_variables()
 	get_mensaje()
+	get_error(None)
 
 
 if __name__ == '__main__':
