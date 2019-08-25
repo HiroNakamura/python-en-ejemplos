@@ -1,6 +1,6 @@
 # Python en ejemplos for Beginners
 
-![Python en ejemplos](https://2.bp.blogspot.com/-hxGG5kiOYVU/Toe7sC1UvQI/AAAAAAAAABk/eBKfJN5fZoo/s1600/codemonk2.jpg "Python en ejemplos")
+![Python en ejemplos](http://1.bp.blogspot.com/-J_ftL7JEuy4/U3k5Dy4je2I/AAAAAAAAAtI/K-Uo123XOcA/s1600/Sin+t%C3%ADtulo-1.png "Python en ejemplos")
 
 Serie de ejercicios en lenguaje de programación **Python**.
 
