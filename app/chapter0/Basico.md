@@ -27,6 +27,11 @@ $ python
 3. REPL.
 
 ```
+$ python
+```
+
+
+```
 > cadena = 'Hola, mundo'
 > numero = 33
 > verdadero = 56 > 65
