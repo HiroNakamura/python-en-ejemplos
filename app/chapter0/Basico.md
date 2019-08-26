@@ -24,3 +24,13 @@ $ python
 > import this
 ```
 
+3. REPL.
+
+```
+> cadena = 'Hola, mundo'
+> numero = 33
+> verdadero = 56 > 65
+> falso =  34%5==0
+> nada = None
+```
+
