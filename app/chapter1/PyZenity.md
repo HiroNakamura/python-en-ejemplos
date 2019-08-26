@@ -1,6 +1,6 @@
 # PyZenity
 
-Author:BRIAN RAMOS
+Author: BRIAN RAMOS
 
 Site: 
 http://brianramos.com/
