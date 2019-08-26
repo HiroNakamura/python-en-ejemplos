@@ -31,6 +31,7 @@ def main():
 	#Chapter 1
 	#get_mensaje()
 	#get_error(None)
+	get_notificacion()
 
 
 if __name__ == '__main__':
