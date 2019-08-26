@@ -6,6 +6,7 @@ from PyZenity import ErrorMessage
 from PyZenity import Notification 
 
 
+ERROR = 'Ha ocurrido un error: '
 MENSAJE = "Bienvenido a Python for Beginners."
 
 def get_mensaje():
@@ -24,4 +25,4 @@ def get_notificacion():
 	try:
 		import imaginario
 	except ImportError as my_err:
-		Notification(text='Ha ocurrido un error: '+str(my_err))
+		Notification(text=ERROR+str(my_err))
