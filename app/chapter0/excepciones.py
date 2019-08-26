@@ -1,6 +1,8 @@
 #!/bin/python
 # coding=utf-8
 
+
+
 def excepcion_testB():
 	try:
 		divide = 4/0
