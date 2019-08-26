@@ -7,7 +7,9 @@ from chapter0.cadenas import *
 from chapter0.excepciones import *
 from chapter0.funciones import *
 from chapter0.variables import *
+from chapter1.entrada import *
 from chapter1.mensaje import *
+from chapter1.seleccion import *
 
 def main():
 	print "Python for Beginners"
@@ -20,19 +22,21 @@ def main():
 	#print tam_cadena("Estalaquita")
 	#excepcion_testA()
 	#excepcion_testB()
-	division_cero()
-	error_tipo()
-	variable_no_definida()
-	archivo_no_existe()
-	archivo_no_encontrado()
-	error_de_nombre()
-	error_de_valor()
+	#division_cero()
+	#error_tipo()
+	#variable_no_definida()
+	#archivo_no_existe()
+	#archivo_no_encontrado()
+	#error_de_nombre()
+	#error_de_valor()
 	#funcion_variables()
 
 	#Chapter 1
 	#get_mensaje()
 	#get_error(None)
-	get_notificacion()
+	#get_notificacion()
+	entrada()
+	linux_instalado()
 
 
 if __name__ == '__main__':
