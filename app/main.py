@@ -21,6 +21,11 @@ def main():
 	#excepcion_testB()
 	division_cero()
 	error_tipo()
+	variable_no_definida()
+	archivo_no_existe()
+	archivo_no_encontrado()
+	error_de_nombre()
+	error_de_valor()
 	#funcion_variables()
 
 	#Chapter 1

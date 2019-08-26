@@ -38,8 +38,9 @@ def variable_no_definida():
 	print "#Variable no definida"
 	try:
 		print cadena
-	except:
-		print "Ha ocurrido una Excepcion"
+	except Exception as e:
+		print "Ha ocurrido una Excepcion:"
+		print e
 	else:
 		print "No ha ocurrido ninguna Excepcion"
 
@@ -49,10 +50,48 @@ def archivo_no_existe():
 	print "#Archivo no existe"
 	try:
 		file = open("noExiste.pdf","r")
-	except FileNotFounbdError:
-		print "El archivo no existe"
+	except Exception as e:
+		print "El archivo no existe:"
+		print e
 	finally:
 		print "Bloque finalizado"
+
+
+
+#Archivo no encontrado
+def archivo_no_encontrado():
+	print "#Archivo no encontrado"
+	try:
+		file = open("noExiste.txt","r")
+	except IOError as e:
+		print "Archivo no encontrado: "
+		print e
+	finally:
+		print "Fin del bloque"
+
+#Error de nombre
+def error_de_nombre():
+	print "#Error de nombre"
+	try:
+		clase = Extractor()
+	except NameError as ex:
+		print "Tipo no definido:"
+		print ex
+
+
+#Error de valor
+def error_de_valor():
+	print "#Error de valor"
+	try:
+		dato = int("32f")
+	except ValueError as valorEx:
+		print "El valor es incorrecto: "
+		print valorEx
+	except:
+		print "Otra excepcion"
+	finally:
+		print "Fin de bloque"
+
 
 
 
