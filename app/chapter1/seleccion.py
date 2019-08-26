@@ -6,7 +6,7 @@ from PyZenity import InfoMessage
 
 
 def linux_instalado():
-if Question('Tienes instalado Linux?'): #nos devolverá un booleano
-    InfoMessage('Bienvenido')
-else:
-    InfoMessage('Deberias instalar Linux')
+    if Question('Tienes instalado Linux?'): #nos devolverá un booleano
+        InfoMessage('Bienvenido')
+    else:
+        InfoMessage('Deberias instalar Linux')
