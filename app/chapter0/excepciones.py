@@ -3,7 +3,7 @@
 
 def excepcion_testB():
 	try:
-		import noExiste()
+		divide = 4/0
 	except Exception as e:
 		print "Ha ocurrido una excepcion: ",e
 	else:
@@ -14,6 +14,6 @@ def excepcion_testB():
 
 def excepcion_testA():
 	try:
-		import noExiste()
-    except e:
-       print "Ha ocurrido una excepcion: ",e
+		division = 9/0.0
+	except Exception as e:
+		print "Exception:",e
