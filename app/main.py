@@ -17,8 +17,10 @@ def main():
 	#cadenas()
 	#decir_hola()
 	#print tam_cadena("Estalaquita")
-	excepcion_testA()
-	excepcion_testB()
+	#excepcion_testA()
+	#excepcion_testB()
+	division_cero()
+	error_tipo()
 	#funcion_variables()
 
 	#Chapter 1
