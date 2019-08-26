@@ -23,5 +23,5 @@ def get_error(dato):
 def get_notificacion():
 	try:
 		import imaginario
-	except ImportError:
-		Notification(text='Ha ocurrido un error')
+	except ImportError as my_err:
+		Notification(text='Ha ocurrido un error: '+str(my_err))
