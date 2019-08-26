@@ -14,7 +14,7 @@ $ python -V
 ```
 
 
-2. Listar el Zen de Python.
+2. Listar el **Zen de Python**.
 
 ```
 $ python
