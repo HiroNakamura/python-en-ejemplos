@@ -94,8 +94,6 @@ def error_de_valor():
 
 
 
-
-
 #try-except-else-finally
 def excepcion_testB():
 	print "try-except-else-finally"
