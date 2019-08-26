@@ -35,7 +35,7 @@ def main():
 	#get_mensaje()
 	#get_error(None)
 	#get_notificacion()
-	entrada()
+	introduce_dato()
 	linux_instalado()
 
 
