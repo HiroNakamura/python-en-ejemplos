@@ -1,6 +1,7 @@
 #!/bin/python
 # coding=utf-8
 
+from chapter0.archivos import *
 from chapter0.bucles import *
 from chapter0.cadenas import *
 from chapter0.excepciones import *
