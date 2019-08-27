@@ -38,7 +38,8 @@ def main():
 	#get_notificacion()
 	#introduce_dato()
 	#linux_instalado()
-	get_directorio()
+	#get_directorio()
+	get_archivo()
 
 
 if __name__ == '__main__':
