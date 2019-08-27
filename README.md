@@ -9,11 +9,11 @@ Serie de ejercicios en lenguaje de programación **Python** (en este repositorio
 
 1. Tener bases sobre programación.
 2. Tener bases sobre el uso de terminal Linux.
-3. Tener instalado Python (versión 2.7 o 3).
+3. Tener instalado Python (versión 2.7).
 4. Tener instalado git.
 
 
-Conocer la ruta del sistema. en muchos casos debes conocer la ruta principal de python.
+Conocer la ruta del sistema. En muchos casos debes conocer la ruta principal de python.
 
 ```
 $ python 
@@ -82,8 +82,5 @@ https://www.mongodb.com/
 
 MongoEngine
 http://mongoengine.org/
-
 Python
 https://www.python.org/
-
-
