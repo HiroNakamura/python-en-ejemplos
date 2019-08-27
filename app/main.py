@@ -34,8 +34,11 @@ def main():
 	#error_de_valor()
 	#funcion_variables()
 	#get_type()
-	get_lambdas()
-	print get_triple(3)
+	#get_lambdas()
+	#print get_triple(3)
+	menu()
+	get_color_rojo(color)
+	
 
 	#Chapter 1
 	#get_mensaje()
