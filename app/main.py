@@ -39,8 +39,9 @@ def main():
 	#print "El triple de 9 es: ", get_triple(9)
 	#print "El triple de 'Python' es: ",get_triple('Python')
 	menu()
-	get_color_rojo(color)
-	
+	print get_color_rojo('red')
+	print get_color_rojo('verde')
+	print get_color_rojo('Amarillo')
 
 	#Chapter 1
 	#get_mensaje()
