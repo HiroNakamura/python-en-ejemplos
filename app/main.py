@@ -34,7 +34,7 @@ def main():
 	#funcion_variables()
 	#get_type()
 	get_lambdas()
-	get_triple(cadena)
+	print get_triple('El gato volador-')
 
 	#Chapter 1
 	#get_mensaje()
