@@ -40,7 +40,7 @@ def main():
 	#introduce_dato()
 	#linux_instalado()
 	#get_directorio()
-	get_archivo()
+	#get_archivo()
 
 
 if __name__ == '__main__':
