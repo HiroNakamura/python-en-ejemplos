@@ -34,6 +34,7 @@ def main():
 	#funcion_variables()
 	#get_type()
 	get_lambdas()
+	get_triple(cadena)
 
 	#Chapter 1
 	#get_mensaje()
