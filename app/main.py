@@ -32,6 +32,7 @@ def main():
 	#error_de_nombre()
 	#error_de_valor()
 	#funcion_variables()
+	get_type()
 
 	#Chapter 1
 	#get_mensaje()
