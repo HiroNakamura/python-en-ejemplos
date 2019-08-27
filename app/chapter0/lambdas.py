@@ -12,6 +12,11 @@ def get_lambdas():
     
  #Lambda
 def get_triple(cadena):
+<<<<<<< HEAD
 	triple = lambda cadena : cadena*3
 	return triple(cadena)
+=======
+    return lambda cadena : cadena * 3
+
+>>>>>>> 72c93a88e846fdb4e146bcb83247e6c239143f8d
     
