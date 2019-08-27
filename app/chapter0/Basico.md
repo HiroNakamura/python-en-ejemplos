@@ -38,5 +38,7 @@ $ python
 > nada = None
 > type(cadena)
 > cadena = cadena.upper()
+> help(str)
+> help(type)
 ```
 
