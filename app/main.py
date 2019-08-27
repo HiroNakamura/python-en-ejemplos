@@ -35,12 +35,9 @@ def main():
 	#error_de_valor()
 	#funcion_variables()
 	#get_type()
-	get_lambdas()
-	print "El triple de 9 es: ", get_triple(9)
-	print "El triple de 'Python' es: ",get_triple('Python')
-
 	#get_lambdas()
-	#print get_triple(3)
+	#print "El triple de 9 es: ", get_triple(9)
+	#print "El triple de 'Python' es: ",get_triple('Python')
 	menu()
 	get_color_rojo(color)
 	
