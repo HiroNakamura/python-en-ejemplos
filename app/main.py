@@ -1,7 +1,6 @@
 #!/bin/python
 # coding=utf-8
 
-
 from chapter0.bucles import *
 from chapter0.cadenas import *
 from chapter0.excepciones import *
@@ -18,7 +17,7 @@ def main():
 	#Chapter 0
 	#ciclo_for()
 	#print "Suma = ",ciclo_while_return()
-	print ciclo_for_return()
+	#print ciclo_for_return()
 	#cadenas()
 	#decir_hola()
 	#print tam_cadena("Estalaquita")
