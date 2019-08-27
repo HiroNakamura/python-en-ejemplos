@@ -7,6 +7,7 @@ from chapter0.cadenas import *
 from chapter0.excepciones import *
 from chapter0.funciones import *
 from chapter0.variables import *
+from chapter1.directorio import *
 from chapter1.entrada import *
 from chapter1.mensaje import *
 from chapter1.seleccion import *
@@ -35,8 +36,9 @@ def main():
 	#get_mensaje()
 	#get_error(None)
 	#get_notificacion()
-	introduce_dato()
-	linux_instalado()
+	#introduce_dato()
+	#linux_instalado()
+	get_directorio()
 
 
 if __name__ == '__main__':
