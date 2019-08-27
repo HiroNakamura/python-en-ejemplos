@@ -5,6 +5,7 @@ from chapter0.bucles import *
 from chapter0.cadenas import *
 from chapter0.excepciones import *
 from chapter0.funciones import *
+from chapter0.lambdas import *
 from chapter0.variables import *
 from chapter1.directorio import *
 from chapter1.entrada import *
@@ -31,7 +32,8 @@ def main():
 	#error_de_nombre()
 	#error_de_valor()
 	#funcion_variables()
-	get_type()
+	#get_type()
+	get_lambdas()
 
 	#Chapter 1
 	#get_mensaje()
