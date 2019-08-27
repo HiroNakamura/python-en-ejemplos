@@ -13,7 +13,7 @@ def get_lambdas():
  #Lambda
 def get_triple(cadena):
 	triple = lambda cadena : cadena*3
-     return triple(cadena)
+	return triple(cadena)
     
 
     
