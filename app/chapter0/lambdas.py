@@ -1,7 +1,7 @@
 #!/bin/python
 # coding=utf-8
 
-#Suma
+#Lambdas
 def get_lambdas():
     suma = lambda a,b : a+b
     doble = lambda x : x*2
@@ -9,4 +9,8 @@ def get_lambdas():
     print "Suma(-5,4) = ",suma(-5,4)
     print "Doble de 2 es ",doble(2)
     print "Doble de -45.8 es ",doble(-45.8)
+    
+ #Lambda
+def get_triple(cadena):
+    return lambda cadena : cadena ** 3
     
