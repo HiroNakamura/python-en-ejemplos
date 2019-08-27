@@ -12,6 +12,7 @@ from chapter1.entrada import *
 from chapter1.mensaje import *
 from chapter1.seleccion import *
 
+
 def main():
 	print "Python for Beginners"
 
@@ -34,7 +35,9 @@ def main():
 	#funcion_variables()
 	#get_type()
 	get_lambdas()
-	print get_triple(3)
+	print "El triple de 9 es: ", get_triple(9)
+	print "El triple de 'Python' es: ",get_triple('Python')
+
 
 	#Chapter 1
 	#get_mensaje()
