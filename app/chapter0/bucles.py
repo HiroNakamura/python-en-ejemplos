@@ -16,7 +16,7 @@ def ciclo_for_return():
     global MAX
     suma = 1.5
     print "Ciclo for return:"
-    for c in range(2.5,MAX):
+    for c in range(2,MAX):
         suma += c
         print "Suma parcial = ",suma
     return suma
