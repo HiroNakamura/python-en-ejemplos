@@ -6,6 +6,7 @@ from chapter0.cadenas import *
 from chapter0.excepciones import *
 from chapter0.funciones import *
 from chapter0.lambdas import *
+from chapter0.selectivas import *
 from chapter0.variables import *
 from chapter1.directorio import *
 from chapter1.entrada import *
