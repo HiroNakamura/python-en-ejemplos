@@ -24,7 +24,7 @@ def funcion_variables():
 	
 def get_type():
 	global TAM
-	print "#Obteniedno tipos:"
+	print "#Obteniendo tipos:"
 	entero = 33
 	character = 'A'
 	cadena = str("Python for Beginners")
