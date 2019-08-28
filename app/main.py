@@ -43,7 +43,7 @@ def main():
 	#print get_color_rojo('red')
 	#print get_color_rojo('verde')
 	#print get_color_rojo('Amarillo')
-	leer_archivo()
+	#leer_archivo()
 	
 
 	#Chapter 1
