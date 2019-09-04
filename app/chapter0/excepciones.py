@@ -114,3 +114,22 @@ def excepcion_testA():
 		division = 9/0.0
 	except Exception as e:
 		print "Exception:",e
+
+		
+		
+#FileNotFoundException no existe en Python 2.7
+def no_existe_arch(path):
+	try:
+		f = open(path,"rb")
+		data = f.read()
+		print "Hecho, archivo leido"
+		return data
+	except IOError as err:
+		print err
+		raise
+	else:
+		f.close()
+	finally:
+		print "Fin del programa"
+		
+		
