@@ -73,4 +73,7 @@ def mockTestC():
 	for item in lista:
 		print item,":",ver_numero(item)
 
+	print ""
+	poner_quitar_item()
+
 

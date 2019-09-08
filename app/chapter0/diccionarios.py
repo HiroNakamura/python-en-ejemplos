@@ -35,6 +35,24 @@ def get_dato_diccionario():
     print dir(letras)
         
   
+def poner_quitar_item():
+    print "Poner-quitar item de un diccionario:"
+    diccionario = dict(A=3,B=4,C=7,D=2,E=8)
+    print diccionario
+    print "Quitamos item usando pop('A'):"
+    diccionario.pop('A')
+    print diccionario
+    print "Quitamos item usando pop('D'):"
+    diccionario.pop('D')
+    print diccionario
+    print "Quitamos item usando pop('E'):"
+    diccionario.pop('E')
+    print diccionario
+    for item in diccionario.values():
+        print item
+
+
+
 
 def funciones_diccionario():
     print "Funciones diccionario:"
