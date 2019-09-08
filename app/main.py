@@ -47,7 +47,7 @@ def main():
 	#print get_color_rojo('Amarillo')
 	#leer_archivo()
 	#mockTestA()#clases
-	mockTestB()#tuplas
+	mockTestB()#tuplas,etc.
 	
 
 

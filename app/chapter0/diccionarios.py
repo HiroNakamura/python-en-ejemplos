@@ -26,9 +26,19 @@ def get_dato_diccionario():
     for key, value in d.iteritems():
         print "Llave: ",key
         print "Valor: ",value
+    print ""
+    letras = dict(A=1,B=2,C=3,D=4,E=5)
+    print "Letras(tipo):",type(letras)
+    for letra in letras.keys():
+        numero = letras[letra]
+        print letra,":",numero
+    print dir(letras)
         
   
 
+def funciones_diccionario():
+    print "Funciones diccionario:"
+    print dir(dict())
         
         
         

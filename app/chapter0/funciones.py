@@ -4,6 +4,9 @@
 
 from clases import *
 from tuplas import *
+from listas import *
+from diccionarios import *
+
 
 def metodo():
     pass
@@ -20,6 +23,18 @@ def tam_cadena(cadena):
 def mockTestB():
 	print "Tupla:\n\t",get_tupla()
 	get_other_tupla()
+	funciones_lista()
+	funciones_tupla()
+	funciones_diccionario()
+	lista = [32,65,87,201,302,604,703,832,991]
+	print "Lista: ",lista 
+	print "Pares: ",get_pares(lista)
+	print "Impares: ",get_impares(lista)
+	print "Ficheros .py:"
+	listar_ficheros()
+	nombres = ['ana','fernando','miguel','laura','juana','hortencia',' ']
+	print nombres
+	print listar_capitalize(nombres)
 
 
 def mockTestA():

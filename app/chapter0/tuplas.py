@@ -36,3 +36,7 @@ def get_other_tupla():
 	print disponible
 	print web
 	
+	
+def funciones_tupla():
+	print "Funciones tupla:"
+	print dir(tuple())
