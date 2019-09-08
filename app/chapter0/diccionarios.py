@@ -10,7 +10,8 @@ def get_diccionario():
     diccionario["Yod"] = 10
     diccionario["Tau"] = 400
     #Equivale a:
-    #diccionario={"Alef":1,"Yod":10,"Tau":400}
+    #diccionario = {"Alef":1,"Yod":10,"Tau":400}
+    #diccionario = dict(Alef=1,Yod=10,Tau=400)
     return diccionario
 
 #Obtener llave-valor
@@ -26,7 +27,8 @@ def get_dato_diccionario():
         print "Llave: ",key
         print "Valor: ",value
         
-        
+  
+
         
         
         

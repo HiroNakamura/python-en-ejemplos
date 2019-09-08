@@ -12,6 +12,7 @@ def get_tupla():
     tupla = tupla + (3,4,5)
     return tupla #(1,2,3,4)
 
+
 def get_other_tupla():
 	tupla = tuple()
 	tupla = tupla + ('Hola',)
@@ -23,6 +24,7 @@ def get_other_tupla():
 	print "Tupla B: ",otra
 	print iguales 
 	proveedor = (datetime.datetime.now(), "Servicios Informaticos Saavedra","555-212-321",True, None)
+	print "Proveedor es de tipo: ",type(proveedor)
 	fecha = proveedor[0]
 	nombre = proveedor[1]
 	telefono = proveedor[2]
@@ -33,3 +35,4 @@ def get_other_tupla():
 	print "Telefono: ",telefono 
 	print disponible
 	print web
+	

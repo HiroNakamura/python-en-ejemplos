@@ -25,6 +25,7 @@ def mockTestB():
 def mockTestA():
 	print "Clases:"
 	tipo = Tipo()
+	print "Tipo es de tipo: ",type(tipo)
 	tipo.nombre = "Tomas"
 	tipo.apellido = "Alcantara"
 	print "Nombre: ",tipo.nombre,"",tipo.apellido
