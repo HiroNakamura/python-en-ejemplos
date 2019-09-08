@@ -2,10 +2,12 @@
 # coding=utf-8
 
 
+from archivos import *
 from clases import *
 from tuplas import *
 from listas import *
 from diccionarios import *
+
 
 
 def metodo():

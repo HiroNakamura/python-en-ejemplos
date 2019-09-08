@@ -47,9 +47,9 @@ def main():
 	#print get_color_rojo('Amarillo')
 	#leer_archivo()
 	#mockTestA()#clases
-	mockTestB()#tuplas,etc.
-	
-
+	#mockTestB()#tuplas,etc.
+	lectura_archivo()#files
+	get_funciones_csv()
 
 
 	#Chapter 1
