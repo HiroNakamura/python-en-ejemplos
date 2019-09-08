@@ -48,9 +48,10 @@ def main():
 	#leer_archivo()
 	#mockTestA()#clases
 	#mockTestB()#tuplas,etc.
-	lectura_archivo()#files
-	get_funciones_csv()
-
+	#lectura_archivo()#files
+	#get_funciones_csv()
+	#print ver_numero("333")
+	mockTestC()
 
 	#Chapter 1
 	#get_mensaje()

@@ -64,4 +64,3 @@ def listar_capitalize(lista):
     return capitalize
 
 
-

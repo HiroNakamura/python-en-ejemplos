@@ -53,3 +53,24 @@ def mockTestA():
 	for libro in tipo.libros:
 		print libro
 	
+
+def ver_numero(numero):
+	resultado,suma,numeroTmp = "",0,""
+	if numero != " ":
+		for num in numero:
+			suma = suma + int(num)
+
+	resultado = str(suma)
+
+	if len(resultado) >= 2:
+		resultado = ver_numero(resultado)
+
+	return resultado
+
+
+def mockTestC():
+	lista = ["45","543","82","902","98","111","109","35"]
+	for item in lista:
+		print item,":",ver_numero(item)
+
+
