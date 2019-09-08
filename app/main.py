@@ -4,10 +4,12 @@
 from chapter0.archivos import *
 from chapter0.bucles import *
 from chapter0.cadenas import *
+from chapter0.clases import *
 from chapter0.excepciones import *
 from chapter0.funciones import *
 from chapter0.lambdas import *
 from chapter0.selectivas import *
+from chapter0.tuplas import *
 from chapter0.variables import *
 from chapter1.directorio import *
 from chapter1.entrada import *
@@ -44,7 +46,11 @@ def main():
 	#print get_color_rojo('verde')
 	#print get_color_rojo('Amarillo')
 	#leer_archivo()
+	#mockTestA()#clases
+	mockTestB()#tuplas
 	
+
+
 
 	#Chapter 1
 	#get_mensaje()

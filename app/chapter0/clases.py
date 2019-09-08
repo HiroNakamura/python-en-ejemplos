@@ -48,3 +48,5 @@ class Libro(object):
       
       
  
+class Tipo:
+    pass
