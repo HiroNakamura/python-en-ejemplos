@@ -51,7 +51,7 @@ def main():
 	#lectura_archivo()#files
 	#get_funciones_csv()
 	#print ver_numero("333")
-	mockTestC()
+	#mockTestC()
 
 	#Chapter 1
 	#get_mensaje()
@@ -61,6 +61,7 @@ def main():
 	#linux_instalado()
 	#get_directorio()
 	#get_archivo()
+	mockTestD()
 	
 	#Chapter 2
 
