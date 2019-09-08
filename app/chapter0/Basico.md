@@ -40,6 +40,7 @@ $ python
 > cadena = cadena.upper()
 > help(str)
 > help(type)
+> dir(list())
 > quit() #o exit()
 ```
 
