@@ -7,4 +7,4 @@ from lista import *
 def get_item_lista():
     item = lista()
     print "Elegiste: "
-    print "Autor: ",item[0],", Lenguaje: ",item[1]
+    print "Autor: ",item[0],", Lenguaje: ",item[1],", País:",item[2]
