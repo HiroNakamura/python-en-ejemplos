@@ -13,6 +13,7 @@ from chapter0.tuplas import *
 from chapter0.variables import *
 from chapter1.directorio import *
 from chapter1.entrada import *
+from chapter1.funciones import *
 from chapter1.mensaje import *
 from chapter1.seleccion import *
 
@@ -61,7 +62,7 @@ def main():
 	#linux_instalado()
 	#get_directorio()
 	#get_archivo()
-	mockTestD()
+	get_item_lista()
 	
 	#Chapter 2
 
