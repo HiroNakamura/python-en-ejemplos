@@ -16,6 +16,8 @@ from chapter1.entrada import *
 from chapter1.funciones import *
 from chapter1.mensaje import *
 from chapter1.seleccion import *
+from chapter2.ventana import *
+from chapter2.botones import *
 
 
 def main():
@@ -62,9 +64,11 @@ def main():
 	#linux_instalado()
 	#get_directorio()
 	#get_archivo()
-	get_item_lista()
+	#get_item_lista()
 	
 	#Chapter 2
+	get_ventana()
+
 
 
 if __name__ == '__main__':
