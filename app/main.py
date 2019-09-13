@@ -68,6 +68,7 @@ def main():
 	
 	#Chapter 2
 	get_ventana()
+	view_botones()
 
 
 
