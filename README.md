@@ -78,10 +78,8 @@ En caso de no salir ningún mensaje, la instalación es correcta. **Nota:** Debe
 
 **Enlaces importantes**
 
-MongoDb
-https://www.mongodb.com/
+* [MongoDb](https://www.mongodb.com/)
 
-MongoEngine
-http://mongoengine.org/
-Python
-https://www.python.org/
+* [MongoEngine](http://mongoengine.org/)
+
+* [Python](https://www.python.org/)
