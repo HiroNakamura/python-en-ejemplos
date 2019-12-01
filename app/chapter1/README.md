@@ -2,5 +2,5 @@
 
 Author: BRIAN RAMOS
 
-Site: 
+Sitio oficial: 
 http://brianramos.com/
