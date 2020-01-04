@@ -3,34 +3,34 @@
 
 1. Mostrar versión de **Python** instalado.
 
-```
+```java
 $ python --version
 
 ```
 
 Otra forma:
-```
+```java
 $ python -V
 ```
 
 
 2. Listar el **Zen de Python**.
 
-```
+```java
 $ python
 ```
 
-```
+```java
 > import this
 ```
 
 3. REPL.
 
-```
+```java
 $ python
 ```
 
-```
+```java
 > cadena = 'Hola, mundo'
 > numero = 33
 > verdadero = 56 > 65
@@ -43,4 +43,25 @@ $ python
 > dir(list())
 > quit() #o exit()
 ```
+
+4. Enumeraciones (en Python 3)
+
+```java
+import enum
+
+class Programador(enum.Enum):
+   Junior = 1
+   Mid_Level = 2
+   Senior = 3
+   
+
+#'Main'
+print ("Valor: ",end="")
+print (Programador.Senior)
+junior = Programador.Junior
+print(junior)
+   
+```
+
+
 
