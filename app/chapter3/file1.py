@@ -7,7 +7,7 @@ Fer Carraro
 '''
 
 
-def main():
+def get_archivo():
 	msg = "Existe el archivo"
 	print "Manejo de archivos:"
 	try:
@@ -23,6 +23,10 @@ def main():
 			print "Contenido:"
 			for line in file:
 				print line
+
+
+def main():
+	get_archivo()
 
 
 if __name__ == '__main__':

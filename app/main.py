@@ -18,6 +18,7 @@ from chapter1.mensaje import *
 from chapter1.seleccion import *
 from chapter2.ventana import *
 from chapter2.botones import *
+from chapter3.file1 import *
 
 
 def main():
@@ -67,8 +68,9 @@ def main():
 	#get_item_lista()
 	
 	#Chapter 2
-	get_ventana()
-	view_botones()
+	#get_ventana()
+	#view_botones()
+
 
 
 
