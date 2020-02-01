@@ -40,3 +40,12 @@ def get_other_tupla():
 def funciones_tupla():
 	print "Funciones tupla:"
 	print dir(tuple())
+	t = 'e',
+	print t
+	t = ()
+	print t
+	t = 'Q','W','E',
+	print t
+	t = tuple([1,2,3,4,5])
+	print t
+	
