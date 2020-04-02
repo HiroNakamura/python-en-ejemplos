@@ -22,7 +22,7 @@ from chapter3.file1 import *
 
 
 def main():
-	print "Python for Beginners"
+	print("Python for Beginners")
 
 	#Chapter 0
 	#ciclo_for()
