@@ -2,7 +2,39 @@
 # -*- coding: utf-8 -*-
 
 import os
+import random
 
+mylista = []
+
+def apuesta():
+    global mylista 
+    a = random.randint(1,50)
+    mylista.append(a)
+    b = random.randint(1, 50)
+    mylista.append(b)
+    c = random.randint(1, 50)
+    mylista.append(c)
+    d = random.randint(1, 50)
+    mylista.append(d)
+    e = random.randint(1, 50)
+    mylista.append(e)
+    f = random.randint(1, 12)
+    mylista.append(f)
+    g = random.randint(1, 12)
+    mylista.append(g)
+    return mylista  
+
+
+def test_apuesta():
+    print("Lista original: ",apuesta())
+    tam = len(apuesta())/2
+    lista_ordenada = []
+    for i in apuesta():
+        lista_ordenada.append(i)
+        if len(lista_ordenada) == tam:
+            break
+    lista_ordenada = sorted(lista_ordenada)
+    print("Lista ordenada:",lista_ordenada)
 
 
 #Lista
