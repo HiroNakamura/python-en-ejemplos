@@ -1,6 +1,9 @@
 #!/bin/python
 # coding=utf-8
 
+
+from chapter0.archivos import leer_archivo
+
 '''
 from chapter0.archivos import *
 from chapter0.bucles import *
