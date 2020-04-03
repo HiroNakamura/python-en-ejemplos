@@ -5,115 +5,115 @@
 
 #ZeroDivisionError:
 def division_cero():
-	print "#Division por cero"
+	print("#Division por cero")
 	try:
 		numero = 45/0
 	except ZeroDivisionError as e:
-		print "No puedes dividir entre cero:"
-		print e
+		print("No puedes dividir entre cero:")
+		print(e)
 
 
 #ValueError
 def error_tipo():
-	print "#Error de tipos"
+	print("#Error de tipos")
 	try:
 		numero = float("34R")
 	except ValueError as e:
-		print "No es el formato correcto:"
-		print e
+		print("No es el formato correcto:")
+		print(e)
 
 
 #No existente
 def funcion_no_existe():
-	print "#Funcion no existe"
+	print("#Funcion no existe")
 	try:
 		noExiste("Hola")
 	except:
-		print "Ha ocurrido una Exception"
+		print("Ha ocurrido una Exception")
 	finally:
-		print "Ha terminado el bloque"
+		print("Ha terminado el bloque")
 
 #Variable no definida
 def variable_no_definida():
-	print "#Variable no definida"
+	print("#Variable no definida")
 	try:
-		print cadena
+		print(cadena)
 	except Exception as e:
-		print "Ha ocurrido una Excepcion:"
-		print e
+		print("Ha ocurrido una Excepcion:")
+		print(e)
 	else:
-		print "No ha ocurrido ninguna Excepcion"
+		print("No ha ocurrido ninguna Excepcion")
 
 
 #Archivo no existe
 def archivo_no_existe():
-	print "#Archivo no existe"
+	print("#Archivo no existe")
 	try:
 		file = open("noExiste.pdf","r")
 	except Exception as e:
-		print "El archivo no existe:"
-		print e
+		print("El archivo no existe:")
+		print(e)
 	finally:
-		print "Bloque finalizado"
+		print("Bloque finalizado")
 
 
 
 #Archivo no encontrado
 def archivo_no_encontrado():
-	print "#Archivo no encontrado"
+	print("#Archivo no encontrado")
 	try:
 		file = open("noExiste.txt","r")
 	except IOError as e:
-		print "Archivo no encontrado: "
-		print e
+		print("Archivo no encontrado: ")
+		print(e)
 	finally:
-		print "Fin del bloque"
+		print("Fin del bloque")
 
 #Error de nombre
 def error_de_nombre():
-	print "#Error de nombre"
+	print("#Error de nombre")
 	try:
 		clase = Extractor()
 	except NameError as ex:
-		print "Tipo no definido:"
-		print ex
+		print("Tipo no definido:")
+		print(ex)
 
 
 #Error de valor
 def error_de_valor():
-	print "#Error de valor"
+	print("#Error de valor")
 	try:
 		dato = int("32f")
 	except ValueError as valorEx:
-		print "El valor es incorrecto: "
-		print valorEx
+		print("El valor es incorrecto: ")
+		print(valorEx)
 	except:
-		print "Otra excepcion"
+		print("Otra excepcion")
 	finally:
-		print "Fin de bloque"
+		print("Fin de bloque")
 
 
 
 #try-except-else-finally
 def excepcion_testB():
-	print "try-except-else-finally"
+	print("try-except-else-finally")
 	try:
 		divide = 4/0
 	except Exception as e:
-		print "Ha ocurrido una excepcion: ",e
+		print("Ha ocurrido una excepcion: ",e)
 	else:
-		print "Tal vez pase otra cosa"
+		print("Tal vez pase otra cosa")
 	finally:
-		print "Ha finalizado el bloque de ejecucion"
+		print("Ha finalizado el bloque de ejecucion")
 
 
 #try-except
 def excepcion_testA():
-	print "try-except"
+	print("try-except")
 	try:
 		division = 9/0.0
 	except Exception as e:
-		print "Exception:",e
+		print("Exception:",e)
 
 		
 		
@@ -122,14 +122,14 @@ def no_existe_arch(path):
 	try:
 		f = open(path,"rb")
 		data = f.read()
-		print "Hecho, archivo leido"
+		print("Hecho, archivo leido")
 		return data
 	except IOError as err:
-		print err
+		print(err)
 		raise
 	else:
 		f.close()
 	finally:
-		print "Fin del programa"
+		print("Fin del programa")
 		
 		
