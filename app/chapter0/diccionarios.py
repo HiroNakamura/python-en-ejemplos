@@ -17,46 +17,46 @@ def get_diccionario():
 #Obtener llave-valor
 def get_dato_diccionario():
     mi_diccionario = get_diccionario()
-    print "Diccionario: ",mi_diccionario,", tipo: ",type(mi_diccionario)
+    print("Diccionario: ",mi_diccionario,", tipo: ",type(mi_diccionario))
     mi_diccionario["Beth"] = 2
     mi_diccionario["Lamed"] = 30
     for k in mi_diccionario:
-        print k," : ",mi_diccionario[k]
-    print "\n"
+        print(k," : ",mi_diccionario[k])
+    print("\n")
     for key, value in d.iteritems():
-        print "Llave: ",key
-        print "Valor: ",value
-    print ""
+        print("Llave: ",key)
+        print("Valor: ",value)
+    print("")
     letras = dict(A=1,B=2,C=3,D=4,E=5)
-    print "Letras(tipo):",type(letras)
+    print("Letras(tipo):",type(letras))
     for letra in letras.keys():
         numero = letras[letra]
-        print letra,":",numero
-    print dir(letras)
+        print(letra,":",numero)
+    print(dir(letras))
         
   
 def poner_quitar_item():
-    print "Poner-quitar item de un diccionario:"
+    print("Poner-quitar item de un diccionario:")
     diccionario = dict(A=3,B=4,C=7,D=2,E=8)
-    print diccionario
-    print "Quitamos item usando pop('A'):"
+    print(diccionario)
+    print("Quitamos item usando pop('A'):")
     diccionario.pop('A')
-    print diccionario
-    print "Quitamos item usando pop('D'):"
+    print(diccionario)
+    print("Quitamos item usando pop('D'):")
     diccionario.pop('D')
-    print diccionario
-    print "Quitamos item usando pop('E'):"
+    print(diccionario)
+    print("Quitamos item usando pop('E'):")
     diccionario.pop('E')
-    print diccionario
+    print(diccionario)
     for item in diccionario.values():
-        print item
+        print(item)
 
 
 
 
 def funciones_diccionario():
-    print "Funciones diccionario:"
-    print dir(dict())
+    print("Funciones diccionario:")
+    print(dir(dict()))
         
         
         
