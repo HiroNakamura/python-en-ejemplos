@@ -7,7 +7,7 @@ class Nodo(object):
       def __init__(self, valor,Nodo):
             self.Nodo = Nodo
             self.valor = valor
-            print "Se ha creado objeto Nodo"
+            print("Se ha creado objeto Nodo")
             
       def __repr__(self):
             return str(self.__dict__)
@@ -18,7 +18,7 @@ class Persona(object):
         self.nombre = nombre 
         self.apellidos = apellidos
         self.edad = edad
-        print "Se creo e inicio objeto Persona"
+        print("Se creo e inicio objeto Persona")
 
     def __repr__(self):
         return str(self.__dict__)
@@ -29,7 +29,7 @@ class Autor(Persona):
     def __init__(self, nombre, apellidos,telefono):
         Persona.__init__(self,nombre,apellidos)
         self.telefono = telefono
-        print "Se creo e inicio objeto Autor"
+        print("Se creo e inicio objeto Autor")
 
     def __repr__(self):
         return str(self.__dict__)
@@ -41,7 +41,7 @@ class Libro(object):
         self.titulo = titulo
         self.isbn = isbn
         self.autor = autor 
-        print "Se ha creado e inicializado objeto Libro"
+        print("Se ha creado e inicializado objeto Libro")
 
     def __repr__(self):
         return str(self.__dict__)
@@ -49,4 +49,8 @@ class Libro(object):
       
  
 class Tipo:
-    pass
+    def __init__(self):
+      print("Objeto Tipo creado e inicializado")
+      
+    def __str__(self):
+      return "Tipo"
