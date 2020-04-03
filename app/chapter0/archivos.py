@@ -6,7 +6,6 @@ import os
 import csv
 
 
-
 def leer_archivo():
 	os.chdir(r'/home/fernando/Documentos/testRepositories/python-en-ejemplos/app/chapter0')
 	arch = open('datos.csv')
@@ -69,5 +68,3 @@ def get_funciones_csv():
 		print("Error: ",e)
 	finally:
 		print("Final de bloque")
-
-

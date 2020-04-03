@@ -1,6 +1,7 @@
 #!/bin/python
 # coding=utf-8
 
+'''
 from chapter0.archivos import *
 from chapter0.bucles import *
 from chapter0.cadenas import *
@@ -19,10 +20,16 @@ from chapter1.seleccion import *
 from chapter2.ventana import *
 from chapter2.botones import *
 from chapter3.file1 import *
-
+'''
 
 def main():
 	print("Python for Beginners")
+	try:
+		from chapter0.archivos import leer_archivo
+		print("La importacion ha funcionado!!")
+	except ImportError:
+		print('La importacion ha fallado')
+
 
 	#Chapter 0
 	#ciclo_for()
