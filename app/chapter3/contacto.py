@@ -34,35 +34,30 @@ def main():
 	try:
 		existe = True if file != None else False
 	except IOError as error:
-		print "Ha ocurrido una excepcion al abrir el archivo:"
-		print error
+		print("Ha ocurrido una excepcion al abrir el archivo:")
+		print(error)
 	finally:
 		if existe:
 			for linea in file:
 				lista.append(linea)
 
-	print "No. registros: ",len(lista)
-	print "Llenando...\n"
+	print("No. registros: ",len(lista))
+	print("Llenando...\n")
 	if len(lista) > 0:
-		print lista
-		print ""
+		print(lista)
+		print("")
 		for i in lista:
 			tmp = i.split(" ")
-			print ">> ",tmp
+			print(">> ",tmp)
 			clave = tmp[0]
 			email = tmp[1]
 			apellidos = tmp[2]
 			nombre = tmp[3]
 			contacto = Contacto(clave,nombre,apellidos,email)
 			contactos.append(contacto)
-	print "Contactos:"
-	print contactos
-	print "Hecho"
-
-	
-
-
-
+	print("Contactos:")
+	print(contactos)
+	print("Hecho")
 
 
 

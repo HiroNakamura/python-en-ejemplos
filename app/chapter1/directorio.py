@@ -10,7 +10,7 @@ from PyZenity import GetFilename
 
 #GetFilename
 def get_archivo():
-	print "#Get archivo:"
+	print("#Get archivo:")
 	archivo= None
 	try:
 		archivo = GetFilename(multiple=True,sep='|')
@@ -18,13 +18,13 @@ def get_archivo():
 	except Exception as ex:
 		ErrorMessage('Ha ocurrido una excepcion: '+str(ex))
 	finally:
-		print "Ha finalizado el bloque: "
-		print "Archivo: ",str(archivo)
+		print("Ha finalizado el bloque: ")
+		print("Archivo: ",str(archivo))
 
 
 #GetDirectory
 def get_directorio():
-	print "#Get directorio:"
+	print("#Get directorio:")
 	directorio = None
 	try:
 		directorio = GetDirectory(multiple=False,selected=None,sep=None)
@@ -33,5 +33,5 @@ def get_directorio():
 	except Exception as ex:
 		ErrorMessage('Ha ocurrido una excepcion: '+str(e))
 	finally:
-		print "Ha finalizado el bloque:"
-		print "Directorio: ",str(directorio)
+		print("Ha finalizado el bloque:")
+		print("Directorio: ",str(directorio))

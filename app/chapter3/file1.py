@@ -3,26 +3,26 @@
 
 '''
 Fer Carraro
-@2019
+@2020
 '''
 
 
 def get_archivo():
 	msg = "Existe el archivo"
-	print "Manejo de archivos:"
+	print("Manejo de archivos:")
 	try:
 		file = open("datos.txt","r")
 		existe = True if file != None else False
 	except IOError as error:
-		print error
+		print(error)
 		existe = False
 		msg = "No existe el archivo"
 	finally:
-		print msg
+		print(msg)
 		if existe:
-			print "Contenido:"
+			print("Contenido:")
 			for line in file:
-				print line
+				print(line)
 
 
 def main():

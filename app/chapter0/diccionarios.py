@@ -57,8 +57,3 @@ def poner_quitar_item():
 def funciones_diccionario():
     print("Funciones diccionario:")
     print(dir(dict()))
-        
-        
-        
-        
-    

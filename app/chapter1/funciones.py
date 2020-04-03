@@ -7,8 +7,8 @@ from PyZenity import InfoMessage
 
 def get_item_lista():
     item = lista()
-    print "Elegiste: "
-    print "Autor: ",item[0],", Lenguaje: ",item[1],", País:",item[2]
+    print("Elegiste: ")
+    print("Autor: ",item[0],", Lenguaje: ",item[1],", País:",item[2])
     autor = item[0]
 
     if autor == 'Larry Wall':
