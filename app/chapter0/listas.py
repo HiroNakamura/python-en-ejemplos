@@ -59,8 +59,8 @@ def get_lista_add(item):
 
 
 def funciones_lista():
-    print "Funciones lista:"
-    print dir(list())
+    print("Funciones lista:")
+    print(dir(list()))
 
 
 def get_pares(lista):
@@ -85,7 +85,7 @@ def get_impares(lista):
 
 def listar_ficheros():
     ficheros_python = [f for f in os.listdir('.') if f.endswith('.py') and f.startswith('f')]
-    print ficheros_python
+    print(ficheros_python)
 
 
 
