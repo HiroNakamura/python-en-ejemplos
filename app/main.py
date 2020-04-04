@@ -32,6 +32,15 @@ def main():
 		print("La importacion ha funcionado!!")
 	except ImportError:
 		print('La importacion ha fallado')
+	
+	try:
+		from chapter2.ventana import get_ventana
+		get_ventana()
+	except ImportError:
+		print("No se ha podido importar, quiza no tengas Tkinter para Python 3")
+	finally:
+		print("Hecho!!")
+
 
 
 	#Chapter 0
