@@ -15,7 +15,7 @@ Serie de ejercicios en lenguaje de programación **Python** (en este repositorio
 
 Conocer la ruta del sistema. En muchos casos debes conocer la ruta principal de python.
 
-```
+```java
 $ python 
 > import sys
 > print sys.path
@@ -53,7 +53,7 @@ $ pip list
 
 **Ejemplo**. Instalando PyZenity. 
 
-```
+```java
 $ sudo python setup.py install
 
 $ python 
