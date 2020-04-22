@@ -29,9 +29,12 @@ def main():
 	print("Python for Beginners")
 	try:
 		from chapter0.archivos import leer_archivo
+		from chapter0.bucles import ciclo_for
 		print("La importacion ha funcionado!!")
 	except ImportError:
 		print('La importacion ha fallado')
+	finally:
+		print("Hecho!!")
 	
 	try:
 		from chapter2.ventana import get_ventana
