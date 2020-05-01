@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+'''
+Enumeraciones en Python
+'''
+
 class PuntosCardinales:
       NORTE = 0
       SUR = 1
@@ -12,5 +16,16 @@ class TAMANYO:
       CHICO = 10.0
       MEDIANO = 15.0
       GRANDE = 22.0
+
+
+
+class LENGUAJES:
+      PYTHON = "Python"
+      JAVA = "Java"
+      GOLANG = "Golang"
+      KOTLIN = "Kotlin"
+      GROOVY = "Groovy"
+      CSHARP = "C#"
+      JAVASCRIPT = "Javascript" 
       
      

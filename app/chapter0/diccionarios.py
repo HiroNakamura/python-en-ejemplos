@@ -52,8 +52,17 @@ def poner_quitar_item():
         print(item)
 
 
-
-
 def funciones_diccionario():
     print("Funciones diccionario:")
     print(dir(dict()))
+    diccionario = dict()
+    diccionario["A"] = 1
+    diccionario["B"] = 2
+    diccionario["X"] = 4
+    diccionario["Q"] = 11
+    print("Llaves: ",diccionario.items())
+    print("Valores: ",diccionario.values())
+
+
+
+
