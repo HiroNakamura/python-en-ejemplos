@@ -61,6 +61,10 @@ def get_lista_add(item):
 def funciones_lista():
     print("Funciones lista:")
     print(dir(list()))
+    numeros = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+    for n in numeros:
+        print(numeros[0:n])
+
 
 
 def get_pares(lista):
@@ -98,7 +102,8 @@ def listar_capitalize(lista):
 
 
 def main():
-	test_apuesta()
+	#test_apuesta()
+    funciones_lista() 
 
 if __name__ == '__main__':
     main()

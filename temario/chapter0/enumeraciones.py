@@ -5,6 +5,15 @@
 Enumeraciones en Python
 '''
 
+
+import enum
+
+class Programador(enum.Enum):
+   Junior = 1
+   Mid_Level = 2
+   Senior = 3
+
+
 class PuntosCardinales:
       NORTE = 0
       SUR = 1
@@ -32,6 +41,21 @@ def main():
       print(LENGUAJES.PYTHON)
       print(TAMANYO.GRANDE)
       print(PuntosCardinales.NORTE)
+      print("Valor: ",end="")
+      print("Nombre: ",end="")
+      print(Programador.Senior)
+      print("Repr : ",end="")
+      print(repr(Programador.Senior))
+      print("Type : ",end ="")
+      print(type(Programador.Senior))
+      print(Programador.Senior)
+      junior = Programador.Junior
+      print(junior)
+      print(junior.name)
+      print("\tRecorriendo enumeracion:")
+      for progr in (Programador):
+            print(progr,": ",progr.name)
+
 
 
 if __name__ == '__main__':

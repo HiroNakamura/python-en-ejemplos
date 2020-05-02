@@ -3,6 +3,8 @@
 
 
 def menu():
+    print("\tMenu")
+    print("1. A.\n2. B.\n")
     opcion = int(str('2'))
     if opcion == 1:
         print("Elegiste la opción 1")
