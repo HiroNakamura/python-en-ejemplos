@@ -6,7 +6,7 @@ En caso de no tener instalado **tkinter** (para Python 3).
 
 # Versión 3
 
-````
+```
 $sudo apt-get install python-tk
 ```
 
