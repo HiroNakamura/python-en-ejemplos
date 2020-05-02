@@ -1,7 +1,7 @@
 # Manejo de archivos usando Python
 
 
-
+**Python** se puede encargar del tratamiento de archivos fácilmente.
 
 
 ```python
