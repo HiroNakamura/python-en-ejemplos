@@ -11,7 +11,11 @@ class Nodo(object):
             
       def __repr__(self):
             return str(self.__dict__)
+      
+      def __str__(self):
+            return "Nodo{ valor: "+str(self.valor)+", nodo: "+str(this.Nodo)+"}"
 
+      
 #Clase base
 class Persona(object):
     def __init__(self,nombre,apellidos,edad):
@@ -34,6 +38,11 @@ class Autor(Persona):
     def __repr__(self):
         return str(self.__dict__)
 
+ 
+#Subclase de Autor
+class Escritor(Autor):
+      def get_obras(self):
+            pass
 
 
 class Libro(object):
@@ -59,7 +68,8 @@ class Tipo:
 def main():
     tipo = Tipo()
     print(tipo)
-    libro = Libro('El increado y su realidad fantastica','122-WER-212224556','Diogenes Haumaga')
+    escritor = Escritor("Diogenes","Haumaga",2020-1945)
+    libro = Libro('El increado y su realidad fantastica','122-WER-212224556',escritor)
     print(libro)
     nodo = None
     if nodo == None:
