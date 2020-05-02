@@ -82,3 +82,9 @@ def mockTestC():
 	poner_quitar_item()
 
 
+def main():
+	pass
+
+
+if __name__ == '__main__':
+    main()

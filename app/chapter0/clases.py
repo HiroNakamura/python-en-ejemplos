@@ -54,3 +54,17 @@ class Tipo:
       
     def __str__(self):
       return "Tipo"
+
+
+def main():
+    tipo = Tipo()
+    print(tipo)
+    libro = Libro('El increado y su realidad fantastica','122-WER-212224556','Diogenes Haumaga')
+    print(libro)
+    nodo = None
+    if nodo == None:
+        nodo = Nodo(123, None)
+        print("Valor: ",nodo.valor)
+
+if __name__ == '__main__':
+    main()

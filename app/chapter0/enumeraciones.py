@@ -28,4 +28,11 @@ class LENGUAJES:
       CSHARP = "C#"
       JAVASCRIPT = "Javascript" 
       
-     
+def main():
+      print(LENGUAJES.PYTHON)
+      print(TAMANYO.GRANDE)
+      print(PuntosCardinales.NORTE)
+
+
+if __name__ == '__main__':
+    main()     

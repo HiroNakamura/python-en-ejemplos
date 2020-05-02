@@ -68,3 +68,11 @@ def get_funciones_csv():
 		print("Error: ",e)
 	finally:
 		print("Final de bloque")
+
+def main():
+	get_funciones_csv()
+	lectura_archivo()
+	leer_archivo()
+
+if __name__ == '__main__':
+    main()

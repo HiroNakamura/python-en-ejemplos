@@ -2,10 +2,15 @@
 
 
 
+
+
 ```python
 
 file = open("datos.txt","r")
+cont = 0
 for line in file:
-  print line
+  print("Linea: ",line)
+  cont = cont + 1
 
+print("No. lineas: ",cont)
 ```

@@ -26,3 +26,11 @@ def get_notificacion():
 		import imaginario
 	except ImportError as my_err:
 		Notification(text=ERROR+str(my_err))
+
+
+def main():
+	pass
+
+
+if __name__ == '__main__':
+    main()

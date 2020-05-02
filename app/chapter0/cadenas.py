@@ -8,6 +8,7 @@ Fecha:  02/04/2020
 
 CADENA_GLOBAL = "Python for Beginners"
 
+
 def cadenas():
   global CADENA_GLOBAL
   print(CADENA_GLOBAL)
@@ -25,3 +26,16 @@ def cadenas_strings():
   print(nombre[6:10]) #for
   for i in nombre:
     print(i)
+
+
+
+def main():
+  cadenas()
+  cadenas_strings()
+
+
+if __name__ == '__main__':
+    main()
+
+
+

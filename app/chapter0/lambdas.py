@@ -26,4 +26,13 @@ def suma_tres(a,b,c):
 	return suma
     
 
+def main():
+    print("Suma: ",suma_tres(1,4,5))
+    print(get_triple("ARIEL"))
+    get_lambdas()
+
+
+
+if __name__ == '__main__':
+    main()
     

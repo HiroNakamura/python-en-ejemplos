@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 #import Tkinter
-from Tkinter import *
+from tkinter import *
 import tkMessageBox
 
 
@@ -17,3 +17,11 @@ def view_botones():
 def helloCallBack():
    tkMessageBox.showinfo( "Python for Beginners", "Hola, mundo")
 
+
+
+def main():
+	pass
+
+
+if __name__ == '__main__':
+    main()

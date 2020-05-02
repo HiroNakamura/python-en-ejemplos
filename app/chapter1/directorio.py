@@ -35,3 +35,12 @@ def get_directorio():
 	finally:
 		print("Ha finalizado el bloque:")
 		print("Directorio: ",str(directorio))
+
+
+def main():
+	pass
+
+
+if __name__ == '__main__':
+    main()
+

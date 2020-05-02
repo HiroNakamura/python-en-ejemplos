@@ -13,4 +13,12 @@ def lista():
                                                                  ,["","Anders Hejlsberg","C#","Dinamarca"]
                                                                  ,["","James Gosling","Java","Canadá"]
                                                                  ,["","Larry Wall","Perl","USA"]
-                                                                 ,["","Gavin King","Ceylon","Unknow"]])
+                                                                ,["","Gavin King","Ceylon","Unknow"]])
+
+
+def main():
+	pass
+
+
+if __name__ == '__main__':
+    main()

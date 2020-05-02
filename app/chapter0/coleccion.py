@@ -9,5 +9,22 @@ def coleccion():
     print(set_2)
     set_3 = {1,2,3,4,}
     print(set_3)
+    causa = ''
+    try:
+        set_4 = set_1 + set_2
+        print(set_4)
+    except TypeError as error:
+        print("Ha ocurrido una excepcion: operacion invalida")
+        causa = 'La causa ha sido: '+str(error)
+    finally:
+        print(causa)
+
     
     
+    
+def main():
+	coleccion()
+
+
+if __name__ == '__main__':
+    main()

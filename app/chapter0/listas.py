@@ -96,3 +96,10 @@ def listar_capitalize(lista):
     return capitalize
 
 
+
+def main():
+	test_apuesta()
+
+if __name__ == '__main__':
+    main()
+

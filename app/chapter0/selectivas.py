@@ -15,3 +15,13 @@ def menu():
 def get_color_rojo(color):
     color = "Rojo" if color == 'red' or color == 'Red' else "Tu color es "+color
     return color
+
+
+def main():
+    menu()
+    print(get_color_rojo('red'))
+    print(get_color_rojo('verde'))
+
+
+if __name__ == '__main__':
+    main()

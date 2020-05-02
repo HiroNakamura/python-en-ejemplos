@@ -11,3 +11,11 @@ def linux_instalado():
         InfoMessage('Bienvenido al udo Linuxero',width=250,height=140,title="Python for Beginners")
     else:
         InfoMessage('Deberias instalar Linux',width=250,height=140,title="Python for Beginners")
+
+
+def main():
+	pass
+
+
+if __name__ == '__main__':
+    main()

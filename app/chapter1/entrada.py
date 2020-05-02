@@ -17,3 +17,9 @@ def introduce_dato():
     ErrorMessage('El formato no es el correcto: '+str(e))
       
    
+def main():
+	pass
+
+
+if __name__ == '__main__':
+    main()

@@ -33,3 +33,14 @@ def ciclo_while_return():
         contador += 3
     return suma
     
+
+
+def main():
+    ciclo_for()
+    print("Ciclo for return: ",ciclo_for_return())
+    print("Ciclo while return: ",ciclo_for_return())
+
+
+
+if __name__ == '__main__':
+    main()

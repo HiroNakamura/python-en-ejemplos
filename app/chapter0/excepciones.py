@@ -2,20 +2,25 @@
 # coding=utf-8
 
 
+excepcion = ''
 
 #ZeroDivisionError:
 def division_cero():
-	print("#Division por cero")
+	global excepcion
+	excepcion = ''
+	print("10. Division por cero")
 	try:
 		numero = 45/0
 	except ZeroDivisionError as e:
 		print("No puedes dividir entre cero:")
 		print(e)
+		excepcion = 'La causa ha sido: '+ str(e)
+	print(excepcion)
 
 
 #ValueError
 def error_tipo():
-	print("#Error de tipos")
+	print("9. Error de tipos")
 	try:
 		numero = float("34R")
 	except ValueError as e:
@@ -25,7 +30,7 @@ def error_tipo():
 
 #No existente
 def funcion_no_existe():
-	print("#Funcion no existe")
+	print("8. Funcion no existe")
 	try:
 		noExiste("Hola")
 	except:
@@ -35,7 +40,7 @@ def funcion_no_existe():
 
 #Variable no definida
 def variable_no_definida():
-	print("#Variable no definida")
+	print("7. Variable no definida")
 	try:
 		print(cadena)
 	except Exception as e:
@@ -47,7 +52,7 @@ def variable_no_definida():
 
 #Archivo no existe
 def archivo_no_existe():
-	print("#Archivo no existe")
+	print("6. Archivo no existe")
 	try:
 		file = open("noExiste.pdf","r")
 	except Exception as e:
@@ -60,7 +65,7 @@ def archivo_no_existe():
 
 #Archivo no encontrado
 def archivo_no_encontrado():
-	print("#Archivo no encontrado")
+	print("5. Archivo no encontrado")
 	try:
 		file = open("noExiste.txt","r")
 	except IOError as e:
@@ -71,7 +76,7 @@ def archivo_no_encontrado():
 
 #Error de nombre
 def error_de_nombre():
-	print("#Error de nombre")
+	print("4. Error de nombre")
 	try:
 		clase = Extractor()
 	except NameError as ex:
@@ -81,7 +86,7 @@ def error_de_nombre():
 
 #Error de valor
 def error_de_valor():
-	print("#Error de valor")
+	print("3. Error de valor")
 	try:
 		dato = int("32f")
 	except ValueError as valorEx:
@@ -96,7 +101,7 @@ def error_de_valor():
 
 #try-except-else-finally
 def excepcion_testB():
-	print("try-except-else-finally")
+	print("2. try-except-else-finally")
 	try:
 		divide = 4/0
 	except Exception as e:
@@ -109,7 +114,7 @@ def excepcion_testB():
 
 #try-except
 def excepcion_testA():
-	print("try-except")
+	print("1. try-except:")
 	try:
 		division = 9/0.0
 	except Exception as e:
@@ -118,7 +123,7 @@ def excepcion_testA():
 		
 		
 #FileNotFoundException no existe en Python 2.7
-def no_existe_arch(path):
+def no_existe_arch_PythonTwo(path):
 	try:
 		f = open(path,"rb")
 		data = f.read()
@@ -133,3 +138,13 @@ def no_existe_arch(path):
 		print("Fin del programa")
 		
 		
+def main():
+	archivo_no_encontrado()
+	excepcion_testA()
+	excepcion_testB()
+	funcion_no_existe()
+	division_cero()
+
+
+if __name__ == '__main__':
+    main()

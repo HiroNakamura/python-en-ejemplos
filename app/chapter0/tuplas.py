@@ -48,3 +48,14 @@ def funciones_tupla():
 	print(t)
 	t = tuple([1,2,3,4,5])
 	print(t)
+
+
+
+def main():
+	funciones_tupla()
+	print(get_tupla())
+	get_other_tupla()
+
+
+if __name__ == '__main__':
+    main()

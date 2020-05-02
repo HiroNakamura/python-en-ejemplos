@@ -48,3 +48,10 @@ def get_type():
 	print("Variable if: ",variable,", tipo: ",type(variable))
 	
 	
+def main():
+	get_type()
+	funcion_variables()
+
+
+if __name__ == '__main__':
+    main()

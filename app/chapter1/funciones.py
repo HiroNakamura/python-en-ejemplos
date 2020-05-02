@@ -23,3 +23,12 @@ def get_item_lista():
 
 
     InfoMessage("Elegiste: \nAutor: "+autor+"\nLenguaje: "+item[1]+"\nPaís:"+item[2],width=250,height=140,title="Python for Beginners")
+
+
+
+def main():
+	pass
+
+
+if __name__ == '__main__':
+    main()

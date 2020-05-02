@@ -2,14 +2,14 @@
 
 ![Python en ejemplos](http://1.bp.blogspot.com/-J_ftL7JEuy4/U3k5Dy4je2I/AAAAAAAAAtI/K-Uo123XOcA/s1600/Sin+t%C3%ADtulo-1.png "Python en ejemplos")
 
-Serie de ejercicios en lenguaje de programación **Python** (en este repositorio usamos la versión 2.7, será actualizada a la versión 3). Para las plataformas Windows, Mac OS X y Linux. 
+Serie de ejercicios en lenguaje de programación **Python** (actualizada a la versión 3). Para las plataformas Windows, Mac OS X y Linux. 
 
 
 ### Requerimientos
 
 1. Tener bases sobre programación.
 2. Tener bases sobre el uso de terminal Linux.
-3. Tener instalado Python (versión 2.7, será actualizada a la versión 3).
+3. Tener instalado Python (actualizada a la versión 3).
 4. Tener instalado git.
 
 
@@ -83,3 +83,11 @@ En caso de no salir ningún mensaje, la instalación es correcta. **Nota:** Debe
 * [MongoEngine](http://mongoengine.org/)
 
 * [Python](https://www.python.org/)
+
+* [Thonny Python IDE](https://thonny.org/)
+
+* [Pycharm](https://www.jetbrains.com/es-es/pycharm/)
+
+* [Real Python](https://realpython.com/)
+
+* [Python for beginners](https://www.pythonforbeginners.com/)

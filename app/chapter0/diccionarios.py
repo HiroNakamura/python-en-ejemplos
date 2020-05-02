@@ -66,3 +66,20 @@ def funciones_diccionario():
 
 
 
+def main():
+    print("Diccionario: ",get_diccionario())
+    causa =''
+    try:
+        print("Lamed",get_dato_diccionario["Lamed"])
+    except TypeError as error:
+        print("Ha ocurrido una excepcion: operacion invalida")
+        causa = 'La causa ha sido: '+str(error)
+    finally:
+        print(causa)
+    funciones_diccionario()
+    poner_quitar_item()
+
+
+
+if __name__ == '__main__':
+    main()
