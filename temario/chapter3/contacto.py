@@ -14,9 +14,12 @@ class Contacto(object):
 		self.apellidos = apellidos
 		self.email = email
 
-
 	def __repr__(self):
 		return str(self.__dict__)
+
+
+	def __str__(self):
+	 return "Contacto{ nombre: "+self.nombre +", apellidos: "+self.apellidos+", email: "+self.email+"}"
 
 
 
