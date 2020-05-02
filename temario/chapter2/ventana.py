@@ -10,7 +10,7 @@ def get_ventana():
 
 
 def main():
-	pass
+	get_ventana()
 
 
 if __name__ == '__main__':

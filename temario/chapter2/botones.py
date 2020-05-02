@@ -13,14 +13,12 @@ def view_botones():
   top.mainloop()
 
   
-
 def helloCallBack():
-   tkMessageBox.showinfo( "Python for Beginners", "Hola, mundo")
-
+  tkMessageBox.showinfo( "Python for Beginners", "Hola, mundo")
 
 
 def main():
-	pass
+  view_botones()
 
 
 if __name__ == '__main__':
