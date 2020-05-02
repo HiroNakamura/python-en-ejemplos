@@ -30,8 +30,8 @@ class Persona(object):
       
 #Subclase de Persona     
 class Autor(Persona):
-    def __init__(self, nombre, apellidos,telefono):
-        Persona.__init__(self,nombre,apellidos)
+    def __init__(self, nombre, apellidos,edad,telefono):
+        Persona.__init__(self,nombre,apellido,edad)
         self.telefono = telefono
         print("Se creo e inicio objeto Autor")
 
@@ -68,7 +68,7 @@ class Tipo:
 def main():
     tipo = Tipo()
     print(tipo)
-    escritor = Escritor("Diogenes","Haumaga",2020-1945)
+    escritor = Escritor("Diogenes","Haumaga",2020-1945,"555")
     libro = Libro('El increado y su realidad fantastica','122-WER-212224556',escritor)
     print(libro)
     nodo = None
