@@ -22,8 +22,6 @@ pip3 install flask
 pip install flask
 ```
 
-
-
 ## Hola mundo en Flask
 
 ```app.py```
@@ -78,6 +76,65 @@ def hello_there(name):
     return content
 ```
 
+## Creando proyecto con Flask
+
+1. Creamos un directorio llamado proyectoFlask.
+```
+$ mkdir proyectoFlask
+```
+
+2. Creamos un entorno virtual (usando el directorio anteriormente creado).
+```
+$ virtualenv proyectoFlask
+$ cd proyectoFlask
+```
+
+3. Activamos el entorno virtual. 
+
+En Windows:
+
+```
+$ .\Scripts\activate
+```
+
+En Linux:
+```
+$ activate
+```
+4. Instalamos Flask.
+```
+$ pip install Flask
+```
+
+5. Comprobamos su instalación.
+```
+$ pip list
+$ pip freeze
+```
+
+6. Creamos un archivo llamado app.py
+```
+from flask import Flask
+app = Flask(__name__)
+ 
+@app.route('/')
+def hola():
+    return 'Flask funcionando correctamente!'
+```
+
+7. Colocamos la variable FLASK_APP. En Windows:
+```
+$ set FLASK_APP=app.py
+```
+En Linux:
+```
+$ export FLASK_APP=app.py
+```
+
+8. Ejecutamos la aplicación y abrimos el navegador en http://localhost:5000
+```
+$ flask run
+```
 
 
 Enlace:
