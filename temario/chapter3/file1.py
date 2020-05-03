@@ -9,13 +9,30 @@ Fer Carraro
 @2020
 '''
 
+def crear_archivo(ruta):
+	pass
+
+
+def eliminar_archivo(ruta):
+	pass
+
+
+
+def get_diretorio(ruta):
+	pass
+
+
+def eliminar directorio(ruta):
+	pass
+
+
 def renombrar_archivo(archivo):
 	renombrado = "El archivo "+archivo+" ha sido renombrado"
 	try:
 		os.rename(archivo,"renombrado.txt")
 	except TypeError as error:
 		print("Ha ocurrido un error: ",error)
-		renombrado = "No se pudo reonmbrar el arhivo"
+		renombrado = "No se pudo renombrar el arhivo"
 	finally:
 		print(renombrado)
 
