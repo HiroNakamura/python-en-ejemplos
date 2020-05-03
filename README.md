@@ -71,9 +71,9 @@ En caso de no salir ningún mensaje, la instalación es correcta. **Nota:** Debe
 1. Python básico.
 2. Uso de **PyZenity**.
 3. Uso de **Tkinter**.
-4. MongoDb + Python.
-5. Uso de **Flask**. 
-6. Uso de **Django**.
+4. Uso de **Flask**.
+5. Uso de **Django**.
+6. Uso de **MongoEngine**.
 
 
 **Enlaces importantes**
