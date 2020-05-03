@@ -27,6 +27,10 @@ class Persona(object):
         self.edad = edad
         print("Se creo e inicio objeto Persona")
 
+    def __del__(self):
+        print("Objeto Persona destruido")
+
+
     def __repr__(self):
         return str(self.__dict__)
       
@@ -108,10 +112,24 @@ def main():
     escritor.set_obras("La Aurora boreal")
     escritor.set_obras("El cobre de oro")
     print("Obras del escritor: ",escritor.get_obras())
+    print("******************************************")
+    persona = Persona('Juan Miguel','Perez Prado',2020-1997)
+    print(persona)
+    autor = Autor(persona.nombre, persona.apellidos,persona.edad,'555')
+    print(type(autor))
+    #type solo muestra el tipo
+    if type(autor) == "<class '__main__.Autor'>":
+        print("Type: Autor")
+    else:
+        if isinstance(autor, Persona) == True:
+            print("Instancia de Persona")
+            print(autor)    
     #Destruimos objetos
     del tipo
     del libro
     del nodo
+    del persona
+    del autor
 
 
 if __name__ == '__main__':
