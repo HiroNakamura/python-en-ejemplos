@@ -22,10 +22,9 @@ class Contacto(object):
 	 return "Contacto{ nombre: "+self.nombre +", apellidos: "+self.apellidos+", email: "+self.email+"}"
 
 
+
 class Cliente(Contacto):
 	pass
-
-
 
 
 
@@ -49,7 +48,6 @@ def get_contacto():
 		if existe:
 			for linea in file:
 				lista.append(linea)
-
 	print("No. registros: ",len(lista))
 	print("Llenando...\n")
 	if len(lista) > 0:
@@ -66,6 +64,8 @@ def get_contacto():
 			contactos.append(contacto)
 	print("Contactos:")
 	print(contactos)
+	file.close()
+	print("Archivo cerrado")
 	print("Hecho")
 
 
