@@ -1,5 +1,5 @@
 #!/bin/python
-# coding=utf-8
+# -*- coding: utf-8 -*-
 
 MAX = 100
 
@@ -10,6 +10,32 @@ def ciclo_for():
     for i in range(1,MAX):
     	if i%3 == 0 and i%5 ==0:
     		print("No. ",i)
+    print("\n")
+    lista = [1,"2",True, 5, float(2), int("32") ]
+    for i in range(len(lista)):
+        print(i)
+    cont = 0
+    for letra in "Guayaba":
+        print(letra)
+        cont = cont + 1
+    print("Cantidad: ",cont)
+    for x in range(10):
+        print("Hola no.",x)
+    for y in range(0,10):
+        print("Ciao no.",y)
+    rango = range(0,MAX)
+    for z in rango:
+        if z%3==0 and z%5==0:
+            print("Welcome, ",z)
+    cont = 0
+    while cont < MAX:
+        print(cont)
+        cont = cont + 3
+        if cont > 50:
+            break
+    print("Contador: ",cont)
+    
+
  
 #ciclo for return
 def ciclo_for_return():

@@ -29,7 +29,10 @@ def get_notificacion():
 
 
 def main():
-	pass
+	get_mensaje()
+	get_error(None)
+	get_notificacion()
+
 
 
 if __name__ == '__main__':

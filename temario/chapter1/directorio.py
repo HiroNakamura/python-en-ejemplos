@@ -11,9 +11,10 @@ from PyZenity import GetFilename
 #GetFilename
 def get_archivo():
 	print("#Get archivo:")
-	archivo= None
+	archivo=None
 	try:
 		archivo = GetFilename(multiple=True,sep='|')
+		print("Tipo: ",type(archivo))
 		InfoMessage('Archivo seleccionado:' +str(archivo),width=200,height=150,title='Archivo seleccionado')
 	except Exception as ex:
 		ErrorMessage('Ha ocurrido una excepcion: '+str(ex))
@@ -31,14 +32,15 @@ def get_directorio():
 		InfoMessage('Tu selección es: '+str(directorio),width=200,height=150,title='Directorio seleccionado')
 		Notification(text='Tu selección es: '+str(directorio))
 	except Exception as ex:
-		ErrorMessage('Ha ocurrido una excepcion: '+str(e))
+		ErrorMessage('Ha ocurrido una excepcion: '+str(ex))
 	finally:
 		print("Ha finalizado el bloque:")
 		print("Directorio: ",str(directorio))
 
 
 def main():
-	pass
+	#get_directorio()
+	get_archivo()
 
 
 if __name__ == '__main__':

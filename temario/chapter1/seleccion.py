@@ -14,7 +14,7 @@ def linux_instalado():
 
 
 def main():
-	pass
+	linux_instalado()
 
 
 if __name__ == '__main__':

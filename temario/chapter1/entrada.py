@@ -18,7 +18,7 @@ def introduce_dato():
       
    
 def main():
-	pass
+	introduce_dato()
 
 
 if __name__ == '__main__':

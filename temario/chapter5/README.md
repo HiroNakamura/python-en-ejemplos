@@ -2,12 +2,26 @@
 
 Es un framework ridículamente fácil de configurar para crear aplicaciones web con Python.
 
+## ¿Tengo Django instalado?
+
 Es necesario tener **Django Framework** instalado:
 
 ```
 >>> import django
 >>> print(django.get_version())
 ```
+
+
+```
+$ pip list
+
+#Salida
+Django (2.1.7)
+
+```
+
+
+
 
 En caso de no tenerlo instalado:
 ```

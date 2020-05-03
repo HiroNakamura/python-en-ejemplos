@@ -27,7 +27,7 @@ def get_item_lista():
 
 
 def main():
-	pass
+	get_item_lista()
 
 
 if __name__ == '__main__':
