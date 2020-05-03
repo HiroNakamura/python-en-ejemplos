@@ -22,13 +22,19 @@ class Contacto(object):
 	 return "Contacto{ nombre: "+self.nombre +", apellidos: "+self.apellidos+", email: "+self.email+"}"
 
 
+class Cliente(Contacto):
+	pass
+
+
+
+
 
 
 file = open("datos.txt","r")
 existe = False
 
 
-def main():
+def get_contacto():
 	lista = []
 	contactos = [] 
 	tmp = None
@@ -63,6 +69,8 @@ def main():
 	print("Hecho")
 
 
+def main():
+   get_contacto()	
 
 if __name__ == '__main__':
 	main()
