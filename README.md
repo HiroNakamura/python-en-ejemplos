@@ -91,3 +91,5 @@ En caso de no salir ningún mensaje, la instalación es correcta. **Nota:** Debe
 * [Real Python](https://realpython.com/)
 
 * [Python for beginners](https://www.pythonforbeginners.com/)
+
+* [Jupyter](https://jupyter.org/index.html)
