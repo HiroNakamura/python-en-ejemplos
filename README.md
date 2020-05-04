@@ -18,7 +18,7 @@ Conocer la ruta del sistema. En muchos casos debes conocer la ruta principal de 
 ```java
 $ python 
 > import sys
-> print sys.path
+> print(sys.path)
 ```
 
 ### Uso de pip
@@ -94,3 +94,5 @@ En caso de no salir ningún mensaje, la instalación es correcta. **Nota:** Debe
 * [Python for beginners](https://www.pythonforbeginners.com/)
 
 * [Jupyter](https://jupyter.org/index.html)
+
+* [Python Diario](http://www.pythondiario.com/)
