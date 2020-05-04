@@ -3,6 +3,20 @@
 
 MAX = 100
 
+
+def iterable():
+    numeros = [5,65,0,-32,111,32,5,18]
+    it = iter(numeros)
+    print("Numeros:")
+    print(next(it))
+    print(next(it))
+    print(next(it))
+    print(next(it))
+    print(next(it))
+    print(next(it))
+
+
+
 #ciclo for
 def ciclo_for():
     global MAX
@@ -60,11 +74,18 @@ def ciclo_while_return():
     return suma
     
 
+def uso_rango():
+    print("Rango:")
+    for num in range(0, 11, 2):
+        print(num)
+
 
 def main():
     ciclo_for()
     print("Ciclo for return: ",ciclo_for_return())
     print("Ciclo while return: ",ciclo_for_return())
+    iterable()
+    uso_rango()
 
 
 

@@ -18,6 +18,11 @@ def coleccion():
         causa = 'La causa ha sido: '+str(error)
     finally:
         print(causa)
+    print("************************************************")
+    cadena = set('El extraño caso de la serpiente programadora.')
+    print("Contenido:\n",cadena)
+    for c in cadena:
+        print(c)
 
     
     
