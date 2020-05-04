@@ -1,6 +1,30 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+from Cars.Ford import Ford
+from Cars.AMCGremlin import AMCGremlin
+from Cars.McLarenSenna import McLarenSenna
+
+
+def clases_externas():
+    try:
+        ModFord = Ford()
+        ModFord.outModels()
+    except TypeError as error:
+        print("Ha ocurrido un error: "+str(error))
+    
+    try:
+        ModAMCGremlin = AMCGremlin()
+        ModAMCGremlin.outModels()
+        ModMcLarenSenna = McLarenSenna()
+        ModMcLarenSenna.outModels()
+    except TypeError as error:
+        print("Ha ocurrido un error: "+str(error))
+    finally:
+        print("Fin")
+
+
+
 
 #Clase básica
 class Nodo(object):
@@ -130,6 +154,7 @@ def main():
     del nodo
     del persona
     del autor
+    clases_externas()
 
 
 if __name__ == '__main__':
