@@ -10,20 +10,20 @@ def clases_externas():
     try:
         ModFord = Ford()
         ModFord.outModels()
+        del ModFord
     except TypeError as error:
         print("Ha ocurrido un error: "+str(error))
-    
     try:
         ModAMCGremlin = AMCGremlin()
         ModAMCGremlin.outModels()
         ModMcLarenSenna = McLarenSenna()
         ModMcLarenSenna.outModels()
+        del ModAMCGremlin
+        del ModMcLarenSenna
     except TypeError as error:
         print("Ha ocurrido un error: "+str(error))
     finally:
         print("Fin")
-
-
 
 
 #Clase básica

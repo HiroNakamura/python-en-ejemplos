@@ -13,11 +13,10 @@ def suma(x, y):
     return x + y
 
 def entrada():
-    print("Suma: ",suma(int(input("x: ")),int(input("y: ")))
-
+	print("Suma: ",suma(int(input("x: ")),int(input("y: ")))
 
 def metodo():
-    pass
+	pass
 
 def decir_hola():
     print("Buongiorno, bambina!!")
@@ -64,12 +63,9 @@ def ver_numero(numero):
 	if numero != " ":
 		for num in numero:
 			suma = suma + int(num)
-
 	resultado = str(suma)
-
 	if len(resultado) >= 2:
 		resultado = ver_numero(resultado)
-
 	return resultado
 
 
@@ -77,13 +73,12 @@ def mockTestC():
 	lista = ["45","543","82","902","98","111","109","35"]
 	for item in lista:
 		print(item,":",ver_numero(item))
-
 	print("")
 	poner_quitar_item()
 
 
 def main():
-	pass
+	mockTestA()
 
 
 if __name__ == '__main__':

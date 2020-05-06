@@ -40,39 +40,48 @@ def funcion_no_existe():
 
 #Variable no definida
 def variable_no_definida():
+	global excepcion
+	excepcion = 'Hecho'
 	print("7. Variable no definida")
 	try:
 		print(cadena)
 	except Exception as e:
 		print("Ha ocurrido una Excepcion:")
-		print(e)
+		excepcion = 'Causa de la excepcion: '+str(e)
+		print(excepcion)
 	else:
 		print("No ha ocurrido ninguna Excepcion")
 
 
 #Archivo no existe
 def archivo_no_existe():
+	global excepcion
 	print("6. Archivo no existe")
+	excepcion = 'Hecho, bloque finalizado'
 	try:
 		file = open("noExiste.pdf","r")
 	except Exception as e:
 		print("El archivo no existe:")
-		print(e)
+		excepcion = 'Causa de la excepcion: '+str(e)
 	finally:
-		print("Bloque finalizado")
+		print(excepcion)
 
 
 
 #Archivo no encontrado
 def archivo_no_encontrado():
+	global excepcion
 	print("5. Archivo no encontrado")
+	excepcion = 'Hecho, bloque finalizado'
 	try:
 		file = open("noExiste.txt","r")
 	except IOError as e:
 		print("Archivo no encontrado: ")
-		print(e)
+		excepcion = 'Causa de la excepcion: '+str(e)
 	finally:
-		print("Fin del bloque")
+		print(excepcion)
+
+
 
 #Error de nombre
 def error_de_nombre():
@@ -137,13 +146,29 @@ def no_existe_arch_PythonTwo(path):
 	finally:
 		print("Fin del programa")
 		
-		
+
+#ModuleNotFoundError
+def modulo_no_existe():
+	global excepcion
+	excepcion = 'Hecho'
+	try:
+		import PyZenity
+	except ModuleNotFoundError as error:
+		print("Ha ocurrido uan excepcion al cargar modulo")
+		excepcion = 'Causa: '+str(error)
+	finally:
+		print(excepcion)
+
+
+
+
 def main():
 	archivo_no_encontrado()
 	excepcion_testA()
 	excepcion_testB()
 	funcion_no_existe()
 	division_cero()
+	modulo_no_existe()
 
 
 if __name__ == '__main__':
