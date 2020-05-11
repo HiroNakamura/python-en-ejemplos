@@ -63,5 +63,11 @@ print(junior)
    
 ```
 
+## Usando Postgres
 
+Para crear conexiones en Postgres necesitamos instalr la siguiente librería.
+
+```
+pip install psycopg2
+```
 
