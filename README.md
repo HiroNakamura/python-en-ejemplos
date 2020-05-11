@@ -96,3 +96,5 @@ En caso de no salir ningún mensaje, la instalación es correcta. **Nota:** Debe
 * [Jupyter](https://jupyter.org/index.html)
 
 * [Python Diario](http://www.pythondiario.com/)
+
+* [Psycopg2](https://www.psycopg.org/)
