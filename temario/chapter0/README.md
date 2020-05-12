@@ -65,9 +65,20 @@ print(junior)
 
 ## Usando Postgres
 
-Para crear conexiones en Postgres necesitamos instalr la siguiente librería.
+Para crear conexiones en Postgres necesitamos instalar la siguiente librería.
 
 ```
 pip install psycopg2
 ```
+
+## Usando MySQL
+
+Para crear conexiones en Mysql necesitamos instalar la siguiente librería.
+
+
+```
+pip install mysql-connector-python
+```
+
+
 
