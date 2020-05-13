@@ -7,8 +7,10 @@ Es un framework ridículamente fácil de configurar para crear aplicaciones web 
 Es necesario tener **Django Framework** instalado:
 
 ```
+$ python
 >>> import django
 >>> print(django.get_version())
+3.0.6
 ```
 
 
@@ -16,20 +18,21 @@ Es necesario tener **Django Framework** instalado:
 $ pip list
 
 #Salida
-Django (2.1.7)
+Django   3.0.6
 
 ```
-
-
 
 
 En caso de no tenerlo instalado:
 ```
 #Linux
-$ python -m pip install Django
+$ python -m pip install Django  o
+$ pip install Django
 
 #Windows
-$ python -m pip install Django
+$ python -m pip install Django o
+$ pip install Django
+
 ```
 
 Otra forma:
