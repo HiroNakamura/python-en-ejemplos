@@ -53,6 +53,46 @@ $ .\Scripts\activate
 ```
 
 
+## Creando proyecto Django
+
+Creamos proyecto:
+
+```
+$ django-admin startproject proyecto
+$ cd proyecto
+```
+
+Creamos aplicación:
+
+```
+$ python manage.py startapp py-tarot
+```
+
+Ejecutamos proyecto:
+```
+$ python manage.py runserver
+```
+
+Abrimos el navegador en: 
+
+[localhost](http://localhost:8000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
