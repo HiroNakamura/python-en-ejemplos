@@ -8,7 +8,7 @@ import mysql.connector as mariadb
 def conecta():
     """ Conectandonos a la abse de datos MySQL"""
     hecho = 'Hecho, hemos terminado. Conexion cerrada.'
-    consultora_ = 'Inforhomex'
+    consultora_ = 'Jade'
     try:
         mariadb_connection = mariadb.connect(user='root', password='root', database='curso_udemy')
         cursor = mariadb_connection.cursor()

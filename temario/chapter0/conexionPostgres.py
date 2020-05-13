@@ -35,8 +35,10 @@ def connect():
         cur = conn.cursor()
         
 	# execute a statement
-        print('Version de la base de datos PostgreSQL:')
-        cur.execute('SELECT version()')
+        #print('Version de la base de datos PostgreSQL:')
+        #cur.execute('SELECT version()')
+        print("Ejecutando funcion: ")
+        cur.execute('SELECT public."showContacts"()')
 
         # display the PostgreSQL database server version
         db_version = cur.fetchone()
@@ -49,7 +51,7 @@ def connect():
     finally:
         if conn is not None:
             conn.close()
-            print('La conexion a la base de datos PostgreSQL.')
+            print('La conexion a la base de datos PostgreSQL se ha cerrado.')
 
 
 
