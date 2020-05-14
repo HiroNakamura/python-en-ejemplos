@@ -65,13 +65,29 @@ $ cd proyecto
 Creamos aplicación:
 
 ```
-$ python manage.py startapp py-tarot
+$ python manage.py startapp PTarot
+$ python manage.py makemigrations PTarot
+$ python manage.py migrate PTarot
+$ python manage.py migrate
 ```
+
+Crear superusuario:
+
+```
+$ python manage.py createsuperuser
+#Se te pedirá un nombre de usuario, correo electrónico y la clave de usuario.
+
+#Migramos (para sincronizar los cambios y creación de la BD)
+
+$ python manage.py migrate
+```
+
 
 Ejecutamos proyecto:
 ```
 $ python manage.py runserver
 ```
+
 
 Abrimos el navegador en: 
 
