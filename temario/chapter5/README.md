@@ -91,7 +91,7 @@ $ python manage.py runserver
 
 Abrimos el navegador en: 
 
-[localhost](http://localhost:8000)
+[http://localhost:8000/index](http://localhost:8000/index)
 
 
 
