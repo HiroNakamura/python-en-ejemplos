@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Proyecto Python Tarot.")
+    return HttpResponse("<h1>Calculando carta de Tarot.</h1>")
 
 
 
