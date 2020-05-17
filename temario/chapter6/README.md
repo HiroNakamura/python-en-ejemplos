@@ -30,3 +30,5 @@ connect('mibase')
 Enlaces:
 * [MongoEngine](http://mongoengine.org/)
 * [MongoEngine :: Python](https://github.com/MongoEngine/mongoengine)
+* [MongoDB & Python](https://pythonise.com/series/mongodb-and-python/mongodb-python-mongoengine-pt1)
+
