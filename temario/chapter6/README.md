@@ -40,6 +40,24 @@ class Mensajes(Document):
 
 ```
 
+## Obtener documento
+```python
+from mongoengine import *
+from bson.objectid import ObjectId
+
+connect('mensajes')
+
+class Mensajes(Document):
+    id = ObjectId()
+    idioma = StringField(max_length = 5,required = True)
+    mensaje = StringField(required = True)
+    
+
+mensaje = Mensajes.objects(idioma='it_IT').get()
+print(mensaje)
+
+```
+
 
 
 
@@ -47,4 +65,4 @@ Enlaces:
 * [MongoEngine](http://mongoengine.org/)
 * [MongoEngine :: Python](https://github.com/MongoEngine/mongoengine)
 * [MongoDB & Python](https://pythonise.com/series/mongodb-and-python/mongodb-python-mongoengine-pt1)
-
+* [FreeMongoDbCourse](https://freemongodbcourse.com/)
