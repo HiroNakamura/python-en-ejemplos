@@ -18,6 +18,13 @@ $ python
 >> help(connect)
 ```
 
+## Crear una conexión
+```java
+from mongoengine import *
+
+#Creamos una conexión a una base de datos llamada 'mibase'
+connect('mibase')
+```
 
 
 Enlaces:
