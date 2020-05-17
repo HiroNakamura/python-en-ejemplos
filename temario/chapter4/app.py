@@ -4,11 +4,15 @@
 from flask import Flask
 app = Flask(__name__)
  
+
 @app.route('/')
-def hola():
-    return 'Flask funcionando correctamente!'
+def index():
+    return '<h1>Flask funcionando correctamente!</h1>'
 
 
+@app.route('/contacto')
+def contacto():
+    return '<p>Fernando Carraro Aguirre</p>'
 
 if __name__ == '__main__':
     app.run()
