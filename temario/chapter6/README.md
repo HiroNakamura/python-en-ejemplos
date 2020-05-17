@@ -19,12 +19,28 @@ $ python
 ```
 
 ## Crear una conexión
-```java
+```python
 from mongoengine import *
 
 #Creamos una conexión a una base de datos llamada 'mibase'
 connect('mibase')
 ```
+
+## Crear clase/documento
+```python
+from mongoengine import *
+from bson.objectid import ObjectId
+
+connect('mensajes')
+
+class Mensajes(Document):
+    id = ObjectId()
+    idioma = StringField(max_length = 5,required = True)
+    mensaje = StringField(required = True)
+
+```
+
+
 
 
 Enlaces:
