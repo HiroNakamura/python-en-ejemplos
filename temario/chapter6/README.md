@@ -39,6 +39,25 @@ if __name__ == "__main__":
     
 ```
 
+**Otra forma**
+````python
+from mongoengine import connect
+from app.config import config
+
+#donde app.config es la configuración
+
+class Connection:
+    def __enter__(self):
+        self.conn = connect(host=config.mongo_url)
+        return self.conn
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.conn.close()
+        
+```
+
+
+
 ## Crear clase/documento
 ```python
 from mongoengine import *
