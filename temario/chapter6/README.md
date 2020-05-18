@@ -40,7 +40,7 @@ if __name__ == "__main__":
 ```
 
 **Otra forma**
-````python
+```python
 from mongoengine import connect
 from app.config import config
 
