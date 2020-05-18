@@ -1,4 +1,4 @@
-# Manejo de archivos usando Python
+# Manejo de archivos y Regex usando Python
 
 
 **Python** se puede encargar del tratamiento de archivos fácilmente.
