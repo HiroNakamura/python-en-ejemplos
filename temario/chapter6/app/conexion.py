@@ -8,15 +8,18 @@ hecho = ''
 
 def main():
     global hecho
-    hecho = 'Terminado.'
+    hecho = 'Terminado. Conexion cerrada'
+    conexion = None
     try:
         print("Conectandonos a la BD 'mensajes'...")
-        connect('mensajes')
+        conexion = connect('mensajes')
         print("Nos hemos conectado!!")
     except TypeError as error:
         hecho = 'Ha ocurrido un error: '+str(error)
     finally:
+        conexion.close()
         print(hecho)
+        
 
 
 if __name__ == '__main__':

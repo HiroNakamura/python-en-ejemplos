@@ -57,6 +57,5 @@ def main():
         print("Lo que se ha obtenido es:")
         print(get_objeto(italiano))
 
-
 if __name__ == '__main__':
     main()
