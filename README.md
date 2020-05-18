@@ -71,7 +71,7 @@ En caso de no salir ningún mensaje, la instalación es correcta. **Nota:** Debe
 1. [Python básico](https://github.com/HiroNakamura/python-en-ejemplos/tree/master/temario/chapter0)
 2. [Uso de PyZenity](https://github.com/HiroNakamura/python-en-ejemplos/tree/master/temario/chapter1)
 3. [Uso de Tkinter](https://github.com/HiroNakamura/python-en-ejemplos/tree/master/temario/chapter2)
-4. [Archivos](https://github.com/HiroNakamura/python-en-ejemplos/tree/master/temario/chapter3)
+4. [Archivos y otras cosas](https://github.com/HiroNakamura/python-en-ejemplos/tree/master/temario/chapter3)
 4. [Uso de Flask](https://github.com/HiroNakamura/python-en-ejemplos/tree/master/temario/chapter4)
 5. [Uso de Django](https://github.com/HiroNakamura/python-en-ejemplos/tree/master/temario/chapter5)
 6. [Uso de MongoEngine](https://github.com/HiroNakamura/python-en-ejemplos/tree/master/temario/chapter6)
