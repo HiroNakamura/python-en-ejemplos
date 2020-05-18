@@ -26,6 +26,19 @@ from mongoengine import *
 connect('mibase')
 ```
 
+## Crear y cerrar conexión 
+```python
+from mongoengine import connect
+
+def main():
+    mensajes = connect('mibase', host='localhost', port=27017)
+    mensajes.close()
+
+if __name__ == "__main__":
+    main()
+    
+```
+
 ## Crear clase/documento
 ```python
 from mongoengine import *
