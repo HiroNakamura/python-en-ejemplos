@@ -77,8 +77,23 @@ def mockTestC():
 	poner_quitar_item()
 
 
+def mockTestD():
+	numero = 32
+	print(eval(str(numero)+"*2"))
+	print(eval("32 ** 2"))
+	numero = 21
+	print(eval("numero + 2"))
+	print(eval("numero ** 2"))
+	code = compile("5 + 4", "<string>", "eval")
+	print(eval(code))
+
+
+
+
+
 def main():
 	mockTestA()
+	mockTestD()
 
 
 if __name__ == '__main__':
