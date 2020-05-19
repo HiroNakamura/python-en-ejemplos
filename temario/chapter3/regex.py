@@ -41,7 +41,7 @@ def testA():
     print("'Python'[0:3] : ",cadena[0:3])
     print("'FERROCARRILERO'[3:5] : ",'FERROCARRILERO'[3:7])
 
-
+#Regex
 def testB():
     cadena = "123"
     print("Cadena: ",cadena)
@@ -54,6 +54,19 @@ def testB():
         print("Patron encontrado")
     else:
         print("No se ha encontrado el patron")
+    print("***********************************************")
+    cadena = "El retrato de una odisea sin nombre."
+    patrones = ["retrato","odisea"]
+    for patron in patrones:
+        print('%s in %s'%(patron, cadena),end='')
+        if re.search(patron, cadena):
+            print(">>Patron encontrado: ",patron)
+        else:
+            print(">>Patron no encontrado")
+    cadena = "La programacion es divertida."
+    print("Cadena: ",cadena)
+    encontrado = re.findall(r"^\w+",cadena)
+    print("Encontrado: ",encontrado)
 
 
 def main():
