@@ -4,6 +4,8 @@
 import re
 from re import search
 
+def testA():
+    cadena = ''
 
 def main():
     pass
