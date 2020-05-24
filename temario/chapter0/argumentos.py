@@ -10,5 +10,6 @@ def main():
     print("Numero de argumentos: ", len(sys.argv))
     print("Los argumentos son: " , str(sys.argv))
 
-if __name__ == '__name__':
+
+if __name__ == '__main__':
     main()
