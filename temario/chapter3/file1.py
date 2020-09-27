@@ -11,6 +11,18 @@ Fer Carraro
 @2020
 '''
 
+def leer_contenido_two():
+    try:
+        file = open("datos.csv","r")
+        print("Archivo: ",file.name)
+        print("archivo:",os.path.basename(file.name))
+        if file!=None:
+            print(file.read())
+        file.close()
+    except IOError as e:
+        print("Error:",e)
+
+
 
 def leer_contenido(ruta):
 	causa = "Hecho"
@@ -94,6 +106,7 @@ def main():
 	#renombrar_archivo("informe.txt")
 	#crear_archivo(input("Introduce nombre del archivo: "),input("Introduce modo [x-crear, w-escribir]: "))
 	leer_contenido("datos.txt")
+	leer_contenido_two()
 
 
 if __name__ == '__main__':
