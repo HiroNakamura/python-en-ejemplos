@@ -41,6 +41,11 @@ def operaciones():
         print("Se ha registrado, ID:", mycursor.lastrowid)
         mycursor.execute("drop table tecnicos")
         print("Tabla 'tecnicos' borrada")
+        mycursor.execute("SELECT * FROM clientes")
+        myresult = mycursor.fetchall()
+        print("Lista de clientes:")
+        for x in myresult:
+            print(x)
 
 
 def prueba_conectando():
