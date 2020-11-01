@@ -43,7 +43,7 @@ def operaciones():
         print("Tabla 'tecnicos' borrada")
 
 
-def conectando():
+def prueba_conectando():
     if conectando("localhost","root","root"):
         print("Conexion exitosa!")
     else:
@@ -51,7 +51,7 @@ def conectando():
 
 
 def main():
-    conectando()
+    prueba_conectando()
     operaciones()
 
 
