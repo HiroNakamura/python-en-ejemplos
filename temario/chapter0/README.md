@@ -63,6 +63,14 @@ print(junior)
    
 ```
 
+5. Listar módulos
+```java
+$ python 
+>> help('modules')
+
+```
+
+
 ## Usando Postgres
 
 Para crear conexiones en Postgres necesitamos instalar la siguiente librería.
