@@ -2,6 +2,36 @@
 # -*- coding: utf-8 -*-
 
 
+mapa_numerologico = {"A":1, "B":2, "C":3,"D":4,"E":5,"F":6,"G":7,"H":8,"I":9,"J":1,"K":2,"L":3,"M":4,"N":5,"O":6,"P":7,"Q":8,"R":9,"S":1,"T":2,"U":3,"V":4,"W":5,"X":6,"Y":7,"Z":8}
+
+
+def suma_final(numero):
+    numero_str = str(numero)
+    suma = 0
+    if len(numero_str)>=2:
+        for element in range(0, len(numero_str)):
+            suma+=int(numero_str[element])
+    else:
+        suma = numero
+    return suma
+
+def quitarEspacio(cadena):
+    final = ""
+    for element in range(0, len(cadena)):
+        if cadena[element] !=" ":
+            final+=str(cadena[element])
+    return str(final)
+
+def obtener_valor(letra):
+    return mapa_numerologico[letra]
+
+
+def sumar_letras(cadena):
+    suma = 0
+    for element in range(0, len(cadena)):
+        suma+=obtener_valor(cadena[element])
+    return suma
+
 #Diccionario
 def get_diccionario():
     diccionario = {} # también diccionario = dict()
@@ -75,8 +105,6 @@ def recorre_diccionarios():
         print('k=', k, ', v=', v)
     
 
-
-
 def main():
     print("Diccionario: ",get_diccionario())
     causa =''
@@ -89,8 +117,15 @@ def main():
         print(causa)
     funciones_diccionario()
     poner_quitar_item()
-
-
+    nombre = "Fernando Carraro Aguirre".upper()
+    print("Nombre:",nombre)
+    try:
+        sin_espacios = quitarEspacio(nombre)
+        obtener_numero = sumar_letras(sin_espacios)
+    except TypeError as excepcion:
+        causa = "Excepcion: "+str(excepcion)
+    finally:
+        print("Número onomástico:",suma_final(obtener_numero))
 
 if __name__ == '__main__':
     main()
