@@ -19,14 +19,22 @@ def funcion_variables():
 	tipo = Tipo()
 	print("\n\t*** Variables en Python ***")
 	print("Entero = ",entero)
+	print(type(entero))
 	print("Caracter = ",character)
+	print(type(character))
 	print("Cadena = ",cadena)
+	print(type(cadena))
 	print("Booleana = ",booleana) #False
+	print(type(booleana))
 	print("Constante global: ",TAM)
+	print(type(TAM))
 	print("Variable nula: ",nula)
+	print(type(nula))
 	print("Variable if: ",variable)
-	print("Tipo: ",type(tipo))
+	print(type(variable))
 	print("Tipo: ",tipo)
+	print("Tipo: ",type(tipo))
+	
 	
 	
 def get_type():

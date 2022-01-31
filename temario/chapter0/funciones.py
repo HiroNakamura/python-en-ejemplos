@@ -12,8 +12,12 @@ from diccionarios import *
 def suma(x, y):
     return x + y
 
+def suma_lambda(ax, bx):
+	sumar = lambda a,b : a+b
+	return sumar(ax,bx)
+
 def entrada():
-	print("Suma: ",suma(int(input("x: ")),int(input("y: ")))
+	print("Suma: ",suma(int(input("x: ")),int(input("y: "))))
 
 def metodo():
 	pass
@@ -86,9 +90,6 @@ def mockTestD():
 	print(eval("numero ** 2"))
 	code = compile("5 + 4", "<string>", "eval")
 	print(eval(code))
-
-
-
 
 
 def main():

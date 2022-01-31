@@ -159,7 +159,15 @@ def modulo_no_existe():
 	finally:
 		print(excepcion)
 
-
+def entrada_invalida():
+	causa = ''
+	try:
+		nombre = float("QWERTY")
+		print(nombre+3.22)
+	except Exception as excepcion:
+		causa = 'La excepcion es: '+str(excepcion)
+	finally:
+		print(causa)
 
 
 def main():
@@ -168,6 +176,7 @@ def main():
 	excepcion_testB()
 	funcion_no_existe()
 	division_cero()
+	entrada_invalida()
 	modulo_no_existe()
 
 
