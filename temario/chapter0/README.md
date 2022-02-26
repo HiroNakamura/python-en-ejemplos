@@ -18,9 +18,6 @@ $ python -V
 
 ```java
 $ python
-```
-
-```java
 > import this
 ```
 

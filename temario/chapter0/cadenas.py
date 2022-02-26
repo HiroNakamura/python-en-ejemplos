@@ -22,6 +22,11 @@ def cadenas():
   print("Tipo: ",type(cadena))
   vector = cadena.split(" ")
   print("Vector: ",vector)#["Python","for","Beginners"]
+  nombre = "Norma"
+  print(f"Cadena: {nombre.capitalize()}")
+  print(f"Primera letra de {nombre}: {nombre[0]}")
+  longitud = len(nombre)
+  print(f"Útlima letra de {nombre.capitalize()}: {nombre[longitud-1]}  ")
   lista = [None, 121, 'R',True, 43,None, False, "5"]
   numeros = list()
   for n in lista:
