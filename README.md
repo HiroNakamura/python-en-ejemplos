@@ -19,6 +19,8 @@ Conocer la ruta del sistema. En muchos casos debes conocer la ruta principal de 
 $ python 
 > import sys
 > print(sys.path)
+> quit()
+
 ```
 
 ### Uso de pip
